@@ -31,5 +31,24 @@ $$K(y-x)+B(y'-x')=My''$$
 
 ## Sistema electrico
 
+Modelamiento en terminos de voltaje
+
 $$-e(t)+V_{L}+V_{200}+V_{50}=0$$
 
+$$-e(t)+2I_{1}'+200I+50(I_{1}-I_{2})=0$$
+
+$$50(I_{2}-I_{1})+20I_{2}+\frac{1}{c}\int I_{2}dt=0$$
+
+Modelamiento en terminos de corriente:
+
+$$I_{1}-I_{2}-I_{3}=0$$
+
+$$I_{1}-I_{2}-I_{3}=0$$
+
+$$I_{1}-I_{2}-I_{3}=0$$
+
+$$V_{x}=4V_{e}'+V_{c}$$
+
+$$e(t)=LI_{1}'+200I_{1}+V_{x}$$
+
+$$I_{c}=0.2V_{c}'$$
