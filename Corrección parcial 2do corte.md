@@ -43,9 +43,9 @@ Modelamiento en terminos de corriente:
 
 $$I_{1}-I_{2}-I_{3}=0$$
 
-$$I_{1}-I_{2}-I_{3}=0$$
+$$I_{1}-0.2V_{c}'-\frac{V_{x}}{50}=0$$
 
-$$I_{1}-I_{2}-I_{3}=0$$
+$$V_{x}=20I_{2}+V_{c}$$
 
 $$V_{x}=4V_{e}'+V_{c}$$
 
