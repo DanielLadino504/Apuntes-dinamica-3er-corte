@@ -53,7 +53,7 @@ $$ 3s - 1 = 0 $$
 $$ s = \frac{1}{3} $$ 
 
 # UBICACION DE ZEROS
-ACA VA LA IMAGEN
+![](99.jpg)
 
 2. 
 $$ G(s) = \frac{s^{2}+4s+1}{s^{4}+3s^{3}+3s^{2}+s+2} $$
