@@ -14,7 +14,7 @@ Se tiene 3 cosas posibles:
 
 # EJEMPLOS DE LAS CLASES 
 
-$$ G(s) = \frac{s^{2}+1}{s} $$         Impropia
+$$ G(s) = \frac{s^{2}+1}{s}       Impropia$$
 
 $$ G(s) = 2 $$                         Bipropia
 
