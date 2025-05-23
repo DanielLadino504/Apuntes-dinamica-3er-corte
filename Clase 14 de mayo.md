@@ -12,7 +12,7 @@ Se tiene 3 cosas posibles:
 - m > n    Estrictamente propia 
 - n = m    Bipropia
 
-# EJEMPLOS DE LAS CLASE 
+## EJEMPLO DE LA CLASE 
 
 $$ G(s) = \frac{s^{2}+1}{s} = Impropia $$
 
@@ -24,28 +24,28 @@ $$ G(s) = \frac{(s^{2}-1)}{s+1} =  Impropia $$
 
 $$ G(s) = \frac{s-1}{s+1} = Bipropia $$         
 
-# EJEMPLOS POR TEMA 
+## EJEMPLO POR TEMA 
 
-$$ G(s) = \frac{5}{2s+1} $$               Estrictamente propia
+$$ G(s) = \frac{5}{2s+1} = Estrictamente propia $$               
 
-$$ G(s) = \frac{25}{s^{2}+4s+25} $$       Estrictamente propia
+$$ G(s) = \frac{25}{s^{2}+4s+25} = Estrictamente propia $$       
 
-$$ G(s) = \frac{2s+3}{s+5} $$             Bipropia
+$$ G(s) = \frac{2s+3}{s+5} = Bipropia $$            
 
-$$ G(s) = \frac{s^{2}+1}{s^{2}+3s+2} $$   Bipropia
+$$ G(s) = \frac{s^{2}+1}{s^{2}+3s+2} = Bipropia $$   
 
-$$ G(s) = \frac{s^{2}+2s+1}{s+1} $$       Impropia
+$$ G(s) = \frac{s^{2}+2s+1}{s+1} = Impropia $$       
 
-$$ G(s) = \frac{s^{3}+2s+1}{s^{2}+s+1}$$  Impropia
+$$ G(s) = \frac{s^{3}+2s+1}{s^{2}+s+1} = Impropia $$  
 
 
-## ZEROS DE UNA FUNCION DE TRANSFERENCIA 
+# ZEROS DE UNA FUNCION DE TRANSFERENCIA 
 
-Si se igual N(S) a 0 se obtienen lo valores de "S" que cumple con la condicio
-Si el numerador se hace 0 toda la funcion de transferencia se vuelve cero de ahi el nombre para estos valores de "s"
-Estos valores pueden ser reales o complejos por lo tanto se puede ubicar en un plano cartesino 
+- Si se igual N(S) a 0 se obtienen lo valores de "S" que cumple con la condicio
+- Si el numerador se hace 0 toda la funcion de transferencia se vuelve cero de ahi el nombre para estos valores de "s"
+- Estos valores pueden ser reales o complejos por lo tanto se puede ubicar en un plano cartesino 
 
-# EJEMPLOS DE LA CLASES
+## EJEMPLO DE LA CLASE
 1.
 $$ G(s) = \frac{Y(s)}{U(s)} = \frac{3s-1}{s^{2}+3s+1} = \frac{N(s)}{D(s)} $$
 $$ N(s) = 0 $$         
