@@ -77,8 +77,7 @@ $$(s+1)(s+2) = 0$$
 $$s = -1$$
 $$s = -2$$
 # UBICACION DE POLOS
-aca va 
-
+![](98.jpg)
 # UBICACION GENERAL DE POLOS Y ZEROS 
 ACA
 # EJEMPLOS DE LA CLASE
