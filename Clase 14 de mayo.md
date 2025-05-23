@@ -14,15 +14,15 @@ Se tiene 3 cosas posibles:
 
 # EJEMPLOS DE LAS CLASES 
 
-$$ G(s) = \frac{s^{2}+1}{s} = Impropia$$
+$$ G(s) = \frac{s^{2}+1}{s} = Impropia $$
 
-$$ G(s) = 2 $$                         Bipropia
+$$ G(s) = 2 = Bipropia $$                     
 
-$$ G(s) = \frac{1}{s+1} $$             Estrictamente propia
+$$ G(s) = \frac{1}{s+1} = Estrictamente propia $$         
 
-$$ G(s) = \frac{(s^{2}-1)}{s+1} $$     Impropia
+$$ G(s) = \frac{(s^{2}-1)}{s+1} =  Impropia $$    
 
-$$ G(s) = \frac{s-1}{s+1} $$           Bipropia
+$$ G(s) = \frac{s-1}{s+1} = Bipropia $$         
 
 # EJEMPLOS POR TEMA 
 
