@@ -12,7 +12,7 @@ Se tiene 3 cosas posibles:
 - m > n    Estrictamente propia 
 - n = m    Bipropia
 
-# EJEMPLOS DE LAS CLASES 
+# EJEMPLOS DE LAS CLASE 
 
 $$ G(s) = \frac{s^{2}+1}{s} = Impropia $$
 
