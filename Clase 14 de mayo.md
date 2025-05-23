@@ -1,4 +1,4 @@
-## CLASIFICACION DE LAS FUNCIONES DE TRANSFERENCIA 
+# CLASIFICACION DE LAS FUNCIONES DE TRANSFERENCIA 
 
 Una funcion de transferencia se puede expresar como: 
 
