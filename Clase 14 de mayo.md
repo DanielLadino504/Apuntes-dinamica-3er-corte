@@ -167,18 +167,21 @@ $$\frac{24}{0}=\infty$$
 # ENTRADA ESCALON
 es una entrada que considera un cambio de nivel repentino
 $$u(t)=\int_{0 \to para t < t_{0}}^{A\to  para t>t_{0}}$$
-$$L\left\{ u(t)\right\}=\frac{A}{s}$$
+$$L{ u(t)}=\frac{A}{s}$$
+
+![](96.jpg)
 
 # ENTRADA RAMPA
 en una entrada que varia en el tiempo de forma lineal
 $$x(t)=\int_{0 \to para t < t_{0}}^{At\to  para t>t_{0}}$$
-$$L\left\{ x(t)\right\}=\frac{A}{s^{2}}$$
+$$L{ x(t)}=\frac{A}{s^{2}}$$
 
+![](95.jpg)
 # ENTRADA PARABOLA
 Es una entrada que considera una variacion no linela en el tiempo lo cual permite evaluar direfentes condiciones inicio y final 
 $$r(t)=\int_{0 \to para t < t_{0}}^{At^{2}\to  para t>t_{0}}$$
-$$L\left\{ r(t)\right\}=\frac{A}{s^{3}}$$
+$$L{ r(t)}=\frac{A}{s^{3}}$$
 
-
+![](94.jpg)
 
 
