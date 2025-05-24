@@ -5,6 +5,8 @@
 
 # Solenoide
 Modelo del circuito electromagnetico
+
+![](90.jpg)
 - Es un circuito electrico formado por un circuito electrico, un acoplamiento electromecanico y un sistema mecanico de traslacion.
 
 $$ L\frac{di}{dt} + Ri = v(t)$$
