@@ -6,7 +6,7 @@ $$ G(s) = \frac{N(s)}{D(s)} $$
 
 Donde N(s) Y D(s) son polinomios de variable "s".
 
-Si denominamos n al grado del polimonio del numerdor.
+Si denominamos n al grado del polimonio del numerador.
 
 Si denominamos m al grado del polimonio del denominador.
 
@@ -123,7 +123,7 @@ Si se iguala D(s) a 0 se obtiene los valores de "s" que cumplen con la condicion
 
 Si el denominador se hace 0 toda la funcion de transferencia se vuelve infinito de ahi el nombre para valores de "s".
 
-Estos valores pueden ser reales o complejos por lo tanto se pueden en un plana cartisiano.
+Estos valores pueden ser reales o complejos por lo tanto se pueden en un plano cartisiano.
 
 ## EJEMPLOS DE LA CLASE
 
