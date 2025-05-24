@@ -77,9 +77,11 @@ $$(s+1)(s+2) = 0$$
 $$s = -1$$
 $$s = -2$$
 # UBICACION DE POLOS
+
 ![](98.jpg)
+
 # UBICACION GENERAL DE POLOS Y ZEROS 
-ACA
+![](97.jpg)
 # EJEMPLOS DE LA CLASE
 POLOS
 1.
