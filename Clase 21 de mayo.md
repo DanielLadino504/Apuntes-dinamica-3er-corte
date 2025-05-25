@@ -62,19 +62,16 @@ $$ F(s) - KX(s) - bsX(s) = ms^{2}X(s) $$
 
 $$ F(s) = X(s)ms^{2} + bsX(s) + KXs) $$
 
-![](81.jpg)
-
 $$ F(s) = X(s)(ms^{2} + bs + K) $$
 
-![](82.jpg)
-
 # Representacion en bloque
+![](81.jpg)
+
+![](82.jpg)
+# Motor DC
 ![](83.jpg)
 
 ![](84.jpg)
-
-# Motor DC
-
 ## Motor DC (Corriente de campo)
 circuito elemtromagnetico
 
