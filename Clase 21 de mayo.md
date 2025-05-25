@@ -12,7 +12,7 @@ Modelo del circuito electromagnetico
 $$ L\frac{di}{dt} + Ri = v(t)$$
 $$ I(S) = V(s)\frac{1}{Ls+R}$$
 
-![](91.jpg)
 
+![](91.jpg)
 Acople entre la parte electromagnetica y la parte mecanica 
 - Ele
