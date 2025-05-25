@@ -23,6 +23,8 @@ $$ \frac{I(s)}{V(s)} = \frac{1}{Ls+R} $$
 ## Acople entre la parte electromagnetica y la parte mecanica 
 - El electroiman produce una fuerza mecanica proporcionada a la corriente en el embobinado.
 
+![](90.jpg)
+
 $$ f_{s} = K_{s}i $$
 Trasformada de LaPlace
 $$ f_{s}(s) = K_{s}I(s) $$
@@ -30,6 +32,8 @@ Funcion de trasferencia
 $$ \frac{F_{s}(s)}{I(s)} = K_{s} $$
 
 ## Sistema mecanica 
+![](90.jpg)
+
 - El electroiman atrae una masa acoplada por medio de un resorte y se considera el amortiguamiento dado por la envolvente de la bobina 
 
 $$ m\frac{d^{2}x}{dt^{2}} + b\frac{dx}{dt} + \kappa x = f(t) $$
