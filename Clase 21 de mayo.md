@@ -35,7 +35,9 @@ $$ \frac{F_{s}(s)}{I(s)} = K_{s} $$
 ![](90.jpg)
 
 - El electroiman atrae una masa acoplada por medio de un resorte y se considera el amortiguamiento dado por la envolvente de la bobina 
+
 ![](88.jpg)
+
 $$ m\frac{d^{2}x}{dt^{2}} + b\frac{dx}{dt} + \kappa x = f(t) $$
 Trasformada de LaPlace
 $$ X(s) = F(s)\frac{1}{ms^{2}+bs+\kappa} $$
@@ -44,9 +46,13 @@ Intermedio
 $$ f(t) - KX - b\dot{x} = m\ddot{x} $$
 $$ F(s) - KX(s) - bsX(s) = ms^{2}X(s) $$
 $$ F(s) = X(s)ms^{2} + bsX(s) + KXs) $$
+
 ![](81.jpg)
+
 $$ F(s) = X(s)(ms^{2} + bs + K) $$
+
 ![](82.jpg)
+
 # Representacion en bloque
 ![](83.jpg)
 
