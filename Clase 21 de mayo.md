@@ -70,8 +70,8 @@ $$ \frac{I_{c}(s)}{V_{c}(s)} = \frac{l}{sL_{c} + R_{c}} $$
 Parte intermedia 
 Como se comviente la corriente en torque que es la que provoca el movimiento del eje
 - El flujo $$ \phi $$ en el entrehierro es proporcional a la corriente de campo
-\phi = K_{c}i_{c}
+$$ \phi = K_{c}i_{c} $$
 - El torque desarrollado es proporcional al $$ \phi $$ y a la corriente de armadura 
-T_{m} = K_{a}i_{a}(t)K_{c}i^{c}(t)
-T_{m}(s) = (K_{a}K_{c}I_{a})I_{c}(s) = K_{m}I_{c}(s)
+$$ T_{m} = K_{a}i_{a}(t)K_{c}i^{c}(t) $$
+$$ T_{m}(s) = (K_{a}K_{c}I_{a})I_{c}(s) = K_{m}I_{c}(s) $$
 - El torque aplicado a la carga es el desarrollado por el motor menos la inercia de la carga
