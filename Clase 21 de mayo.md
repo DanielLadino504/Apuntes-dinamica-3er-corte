@@ -44,10 +44,13 @@ Intermedio
 $$ f(t) - KX - b\dot{x} = m\ddot{x} $$
 $$ F(s) - KX(s) - bsX(s) = ms^{2}X(s) $$
 $$ F(s) = X(s)ms^{2} + bsX(s) + KXs) $$
+![](81.jpg)
 $$ F(s) = X(s)(ms^{2} + bs + K) $$
-
+![](82.jpg)
 # Representacion en bloque
+![](83.jpg)
 
+![](84.jpg)
 
 # Motor DC
 
