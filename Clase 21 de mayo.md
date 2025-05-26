@@ -27,7 +27,7 @@ Funcion de trasferencia
 
 $$ \frac{I(s)}{V(s)} = \frac{1}{Ls+R} $$
  
-## Acople entre la parte electromagnetica y la parte mecanica 
+# Acople entre la parte electromagnetica y la parte mecanica 
 - El electroiman produce una fuerza mecanica proporcionada a la corriente en el embobinado.
 
 ![](90.jpg)
@@ -42,7 +42,7 @@ Funcion de trasferencia
 
 $$ \frac{F_{s}(s)}{I(s)} = K_{s} $$
 
-## Sistema mecanica 
+# Sistema mecanica 
 
 ![](90.jpg)
 
@@ -66,7 +66,7 @@ $$ F(s) = X(s)ms^{2} + bsX(s) + KXs) $$
 
 $$ F(s) = X(s)(ms^{2} + bs + K) $$
 
-# Representacion en bloque
+## Representacion en bloque
 
 ![](81.jpg)
 
@@ -108,18 +108,18 @@ $$ \phi = K_{c}i_{c} $$
 
 - El torque desarrollado es proporcional al $$ \phi $$ y a la corriente de armadura
 
-$$ T_{m}=K_{a}i_{a}\Phi \Rightarrow T_{m} = K_{a}i_{a}(t)K_{c}i^{c}(t) \Rightarrow T_{m}=(K_{a}K_{c}i_{a})i_{c}(t) $$
+$$ T_{m} = K_{a}i_{a}\Phi \Rightarrow T_{m} = K_{a}i_{a}(t)K_{c}i^{c}(t) \Rightarrow T_{m} = (K_{a}K_{c}i_{a})i_{c}(t) $$
 
-$$ T_{m}(s) = (K_{a}K_{c}I_{a})I_{c}(s) = K_{m}I_{c}(s) \Rightarrow \frac{I_{m}(s)}{I_{c}(s)}=K_{m} $$
+$$ T_{m}(s) = (K_{a}K_{c}I_{a})I_{c}(s) = K_{m}I_{c}(s) \Rightarrow \frac{I_{m}(s)}{I_{c}(s)} = K_{m} $$
 
 - El torque aplicado a la carga es el desarrollado por el motor menos la inercia de la carga
 
-$$ T_{c}(s) = T_{m}(s)-T_{p}(s) $$
+$$ T_{c}(s) = T_{m}(s) - T_{p}(s) $$
 
 - El torque aplicado (parte mecanica) a la carga se comporta como un sistema totacional clasico que considera la inercia y la friccion mecanica
 Ecuancion general
 
-$$ J\frac{d^{2}\theta }{dt^{2}}+b\frac{d\theta }{dt}+\kappa \theta =\tau (t) $$
+$$ J\frac{d^{2}\theta }{dt^{2}}+b\frac{d\theta }{dt}+\kappa \theta = \tau (t) $$
 
 $$ \Theta (s) = T_{c}(s)\frac{1}{(s^{2}J+bs)} $$
 
@@ -131,16 +131,52 @@ Se puede representar de la siguiente forma
 
 Escrita matematicamente funcion de trasferencia para el motor DC
 
-$$ \Theta (s)= V_{c}(s)\frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)}-T_{p}(s)\frac{1}{(Js^{2}+bs)} $$
+$$ \Theta (s) = V_{c}(s)\frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} - T_{p}(s)\frac{1}{(Js^{2}+bs)} $$
 
 $$ \frac{\Theta (s)}{V_{c}(s)} = \frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} $$
 
 # Modelo del motor DC (Corriente de armadura)
 
+- La corriebte de campo se asume constate por lo tanto el torque es: Parte electromecanica 
+$$ T_{m}(s) = (K_{a}K_{c}I_{c})I_{a}(s) = K_{m}I_{a}(s) $$
+
+
+- La corriente de armadura se relaciona con el volteje aplicando a la armadura por: Parte electrica
+Transformada de LaPlace de la ecuacion Diferencial
+
+$$ V_{a}(t) = R_{a}i_{a}(t) + L_{a}\frac{di_{a}}{dt} + V_{b}(t) $$
+
+$$ V_{a}(s) = (sL_{a} + R_{a}) I_{a}(s) + V_{b}(s) $$
+
+Parte electrica y la parte electromecanica
+- El voltaje inducido en la armadura es proporcional a la velocidad angular del eje: 
+
+$$ V_{b}(s) = K_{b}\omega (s) $$
+
+Se reemplaza 
+
+$$ V_{a}(s) = (sL_{a}+R_{a})I_{a}(s)+V_{b}(s) $$
+
+Obtenemos, ecuacion 
+
+$$ I_{a}(s) = \frac{V_{a}(s) - K_{b}\omega (s)}{sL_{a}+R_{a}} $$
+
+Parte mecanica
+- Se comporta de la misma manera que en el caso anterior:
+
+$$ T_{c}(s)=T_{m}(s)-T_{p}(s) $$
+
+$$ \Theta (s) = T_{c}(s)\frac{1}{(s^{2}J+bs)} $$
+
+## Diagrama de bloques resultalte 
+
+$$ I_{a}=\frac{V_{a} - K_{b}\omega }{L_{s} + R_{a}} $$
+
+$$ L\left\{ \int f(t)dt\left. \right \}\right.=\frac{F(s)}{S} $$
 
 
 
-
+# Elementos Transmisores de energia
 
 
 
