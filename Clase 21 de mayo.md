@@ -100,7 +100,7 @@ Funcion de trasferencia
 $$ \frac{I_{c}(s)}{V_{c}(s)} = \frac{l}{sL_{c} + R_{c}} $$
 
 Parte intermedia 
-Como se comviente la corriente en torque que es la que provoca el movimiento del eje
+Como se convierte la corriente en torque que es la que provoca el movimiento del eje
 
 - El flujo $\phi$ en el entrehierro es proporcional a la corriente de campo
 
@@ -137,7 +137,8 @@ $$ \frac{\Theta (s)}{V_{c}(s)} = \frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} $$
 
 # Modelo del motor DC (Corriente de armadura)
 
-- La corriebte de campo se asume constate por lo tanto el torque es: Parte electromecanica 
+- La corriebte de campo se asume constate por lo tanto el torque es: Parte electromecanica
+
 $$ T_{m}(s) = (K_{a}K_{c}I_{c})I_{a}(s) = K_{m}I_{a}(s) $$
 
 
@@ -164,24 +165,82 @@ $$ I_{a}(s) = \frac{V_{a}(s) - K_{b}\omega (s)}{sL_{a}+R_{a}} $$
 Parte mecanica
 - Se comporta de la misma manera que en el caso anterior:
 
-$$ T_{c}(s)=T_{m}(s)-T_{p}(s) $$
+$$ T_{c}(s) = T_{m}(s) - T_{p}(s) $$
 
 $$ \Theta (s) = T_{c}(s)\frac{1}{(s^{2}J+bs)} $$
 
 ## Diagrama de bloques resultalte 
 
-$$ I_{a}=\frac{V_{a} - K_{b}\omega }{L_{s} + R_{a}} $$
+$$ I_{a} = \frac{V_{a} - K_{b}\omega }{L_{s} + R_{a}} $$
 
-$$ L\left\{ \int f(t)dt\left. \right \}\right.=\frac{F(s)}{S} $$
-
-
-
-# Elementos Transmisores de energia
+$$ L\left\{ \int f(t)dt\left. \right \}\right. = \frac{F(s)}{S} $$
 
 
+# Elementos transmisores de energia
+## Engranajes y Poleas 
+- Son dispositivos mecanicos que transmiten la energia desde una parte del sistema a otra
+- Los podemos usar ya sea para aumentar la cantidad de torque que se genera sobre una carga o la cantidad de velocidad 
+
+$$ \frac{\tau _{2}}{\tau _{1}} = \frac{N_{2}}{N_{1}} $$
+$$ \frac{N_{2}}{N_{1}} = -\frac{\theta_{1} }{\theta_{2}} $$
+
+## Diagrama de bloques 
+
+## Transmision rotacional a lineal
+
+# PALANCAS
+
+Fuerzas y distacion son constantes 
+$$ -\frac{f_{2}}{f_{1}} = \frac{d_{1}}{d_{2}} $$
+Distacias y desplazamiento constantes 
+$$ \frac{d_{1}}{d_{2}} = \frac{x_{1}}{x_{2}} $$
+# POTENCIOMETRO
+## Potenciometro de rotacion 
 
 
+## Potenciometro lineal
+$$ V_{0} = \frac{\theta }{\theta _{max}}V\propto $$
+## Potenciometros logaritmicos 
+$$ V_{0} = log_{10}\left ( \frac{\theta }{\theta _{Max}}V_{cc} \right) $$
+## Potenciometros de translacion 
 
+Funcion de transferencia todo va a estar a terminos de desplazamiento lineal 
+$$ V_{0} = \frac{x}{x_{Max}}V_{\propto} $$
+
+# TACOMETROS
+- Son dispositivos que convierte la velocidad angular a voltaje
+
+$$ v(t) = k\frac{d\theta (t)}{dt} $$
+
+Funcion de transferencia 
+
+$$ G(s) = \frac{V(s)}{\Theta (s)} = ks $$
+
+# Sesores Transmisores 
+
+- Si son lineales
+$$ H(s) = \frac{TO}{PV} = K $$
+- si no son lineales, funcion de transferencia de primer grado
+$$ H(s) = \frac{TO(s)}{PV(s)} = \frac{K_{T}}{\tau _{T}S+1} $$
+
+# Modelos de otros procesos 
+## Mezcla de sustancias 
+
+Funcion de transferencia 
+$$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _{inicial}s+\rho _{in}v_{in}}{s+v_{out}} $$
+
+## Ejemplo en clase
+- Sea un tanque lleno con ocho litros de agua salada en el cual estan disueltos dos kg de sal. Una solucion de salmuera ( agua salada) con tres kg de sal por litro entra al tanque a una velocidad de 4l/min, mientras la mezcla bien agitada sale a la misma velocidad con la que entra.
+
+$$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{2s+3*4}{s+4} $$
+
+## Sistemas termicos
+
+$$ G(s) = \frac{T(s)}{Q_{in}(s)} = \frac{1/C}{s+1/RC} $$
+
+## Ejemplo en clase
+
+Diagrama de bloques 
 
 
 
