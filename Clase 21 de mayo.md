@@ -128,7 +128,9 @@ Funcion de trasferencia
 $$ \frac{\theta (s)}{I_{c}(s)} = \frac{1}{s^{2}J+bs} $$ 
 
 Se puede representar de la siguiente forma 
+
 ![](70.jpg)
+
 Escrita matematicamente funcion de trasferencia para el motor DC
 
 $$ \Theta (s) = V_{c}(s)\frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} - T_{p}(s)\frac{1}{(Js^{2}+bs)} $$
@@ -136,7 +138,9 @@ $$ \Theta (s) = V_{c}(s)\frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} - T_{p}(s)\frac{
 $$ \frac{\Theta (s)}{V_{c}(s)} = \frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} $$
 
 # Modelo del motor DC (Corriente de armadura)
+
 ![](84.jpg)
+
 - La corriebte de campo se asume constate por lo tanto el torque es: Parte electromecanica
 
 $$ T_{m}(s) = (K_{a}K_{c}I_{c})I_{a}(s) = K_{m}I_{a}(s) $$
@@ -174,42 +178,58 @@ $$ \Theta (s) = T_{c}(s)\frac{1}{(s^{2}J+bs)} $$
 $$ I_{a} = \frac{V_{a} - K_{b}\omega }{L_{s} + R_{a}} $$
 
 $$  L(\int f(t)dt)=\frac{F(s)}{s}$$
+
 ![](71.jpg)
 
 # Elementos transmisores de energia
 ## Engranajes y Poleas 
 - Son dispositivos mecanicos que transmiten la energia desde una parte del sistema a otra
 - Los podemos usar ya sea para aumentar la cantidad de torque que se genera sobre una carga o la cantidad de velocidad 
+
 ![](60.jpg)
+
 $$ \frac{\tau _{2}}{\tau _{1}} = \frac{N_{2}}{N_{1}} $$
 $$ \frac{N_{2}}{N_{1}} = -\frac{\theta_{1} }{\theta_{2}} $$
 
 ## Diagrama de bloques 
+
 ![](72.jpg)
+
 ## Transmision rotacional a lineal
+
 ![](73.jpg)
+
 # PALANCAS
+
 ![](74.jpg)
+
 Fuerzas y distacion son constantes 
 $$ -\frac{f_{2}}{f_{1}} = \frac{d_{1}}{d_{2}} $$
 Distacias y desplazamiento constantes 
 $$ \frac{d_{1}}{d_{2}} = \frac{x_{1}}{x_{2}} $$
 # POTENCIOMETRO
 ## Potenciometro de rotacion 
+
 ![](75.jpg)
+
 ![](61.jpg)
+
 ## Potenciometro lineal
 $$ V_{0} = \frac{\theta }{\theta _{max}}V\propto $$
 ## Potenciometros logaritmicos 
 $$ V_{0} = log_{10}\left ( \frac{\theta }{\theta _{Max}}V_{cc} \right) $$
 ## Potenciometros de translacion 
+
 ![](62.jpg)
+
 Funcion de transferencia todo va a estar a terminos de desplazamiento lineal 
 $$ V_{0} = \frac{x}{x_{Max}}V_{\propto} $$
 
 # TACOMETROS
 - Son dispositivos que convierte la velocidad angular a voltaje
+
 ![](63.jpg)
+
 $$ v(t) = k\frac{d\theta (t)}{dt} $$
 
 Funcion de transferencia 
@@ -217,7 +237,9 @@ Funcion de transferencia
 $$ G(s) = \frac{V(s)}{\Theta (s)} = ks $$
 
 # Sesores Transmisores 
+
 ![](64.jpg)
+
 - Si son lineales
 $$ H(s) = \frac{TO}{PV} = K $$
 - si no son lineales, funcion de transferencia de primer grado
@@ -225,7 +247,9 @@ $$ H(s) = \frac{TO(s)}{PV(s)} = \frac{K_{T}}{\tau _{T}S+1} $$
 
 # Modelos de otros procesos 
 ## Mezcla de sustancias 
+
 ![](65.jpg)
+
 Funcion de transferencia 
 $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _{inicial}s+\rho _{in}v_{in}}{s+v_{out}} $$
 
@@ -235,12 +259,17 @@ $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _{inicial}s+\rho _{in}v_{in}}{s+v_{
 $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{2s+3*4}{s+4} $$
 
 ## Sistemas termicos
+
 ![](66.jpg)
+
 $$ G(s) = \frac{T(s)}{Q_{in}(s)} = \frac{1/C}{s+1/RC} $$
 
 ## Ejemplo en clase
+
 ![](67.jpg)
+
 Diagrama de bloques 
+
 ![](68.jpg)
 
 
