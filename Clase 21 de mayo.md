@@ -128,7 +128,7 @@ Funcion de trasferencia
 $$ \frac{\theta (s)}{I_{c}(s)} = \frac{1}{s^{2}J+bs} $$ 
 
 Se puede representar de la siguiente forma 
-
+![](70.jpg)
 Escrita matematicamente funcion de trasferencia para el motor DC
 
 $$ \Theta (s) = V_{c}(s)\frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} - T_{p}(s)\frac{1}{(Js^{2}+bs)} $$
@@ -136,7 +136,7 @@ $$ \Theta (s) = V_{c}(s)\frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} - T_{p}(s)\frac{
 $$ \frac{\Theta (s)}{V_{c}(s)} = \frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} $$
 
 # Modelo del motor DC (Corriente de armadura)
-
+![](84.jpg)
 - La corriebte de campo se asume constate por lo tanto el torque es: Parte electromecanica
 
 $$ T_{m}(s) = (K_{a}K_{c}I_{c})I_{a}(s) = K_{m}I_{a}(s) $$
@@ -174,7 +174,7 @@ $$ \Theta (s) = T_{c}(s)\frac{1}{(s^{2}J+bs)} $$
 $$ I_{a} = \frac{V_{a} - K_{b}\omega }{L_{s} + R_{a}} $$
 
 $$ L\left\{ \int f(t)dt\left. \right \}\right. = \frac{F(s)}{S} $$
-
+![](71.jpg)
 
 # Elementos transmisores de energia
 ## Engranajes y Poleas 
@@ -185,18 +185,18 @@ $$ \frac{\tau _{2}}{\tau _{1}} = \frac{N_{2}}{N_{1}} $$
 $$ \frac{N_{2}}{N_{1}} = -\frac{\theta_{1} }{\theta_{2}} $$
 
 ## Diagrama de bloques 
-
+![](72.jpg)
 ## Transmision rotacional a lineal
-
+![](73.jpg)
 # PALANCAS
-
+![](74.jpg)
 Fuerzas y distacion son constantes 
 $$ -\frac{f_{2}}{f_{1}} = \frac{d_{1}}{d_{2}} $$
 Distacias y desplazamiento constantes 
 $$ \frac{d_{1}}{d_{2}} = \frac{x_{1}}{x_{2}} $$
 # POTENCIOMETRO
 ## Potenciometro de rotacion 
-
+![](75.jpg)
 
 ## Potenciometro lineal
 $$ V_{0} = \frac{\theta }{\theta _{max}}V\propto $$
