@@ -197,19 +197,19 @@ $$ \frac{d_{1}}{d_{2}} = \frac{x_{1}}{x_{2}} $$
 # POTENCIOMETRO
 ## Potenciometro de rotacion 
 ![](75.jpg)
-
+![](61.jpg)
 ## Potenciometro lineal
 $$ V_{0} = \frac{\theta }{\theta _{max}}V\propto $$
 ## Potenciometros logaritmicos 
 $$ V_{0} = log_{10}\left ( \frac{\theta }{\theta _{Max}}V_{cc} \right) $$
 ## Potenciometros de translacion 
-
+![](62.jpg)
 Funcion de transferencia todo va a estar a terminos de desplazamiento lineal 
 $$ V_{0} = \frac{x}{x_{Max}}V_{\propto} $$
 
 # TACOMETROS
 - Son dispositivos que convierte la velocidad angular a voltaje
-
+![](63.jpg)
 $$ v(t) = k\frac{d\theta (t)}{dt} $$
 
 Funcion de transferencia 
@@ -217,7 +217,7 @@ Funcion de transferencia
 $$ G(s) = \frac{V(s)}{\Theta (s)} = ks $$
 
 # Sesores Transmisores 
-
+![](64.jpg)
 - Si son lineales
 $$ H(s) = \frac{TO}{PV} = K $$
 - si no son lineales, funcion de transferencia de primer grado
@@ -225,7 +225,7 @@ $$ H(s) = \frac{TO(s)}{PV(s)} = \frac{K_{T}}{\tau _{T}S+1} $$
 
 # Modelos de otros procesos 
 ## Mezcla de sustancias 
-
+![](65.jpg)
 Funcion de transferencia 
 $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _{inicial}s+\rho _{in}v_{in}}{s+v_{out}} $$
 
@@ -235,13 +235,13 @@ $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _{inicial}s+\rho _{in}v_{in}}{s+v_{
 $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{2s+3*4}{s+4} $$
 
 ## Sistemas termicos
-
+![](66.jpg)
 $$ G(s) = \frac{T(s)}{Q_{in}(s)} = \frac{1/C}{s+1/RC} $$
 
 ## Ejemplo en clase
-
+![](67.jpg)
 Diagrama de bloques 
-
+![](68.jpg)
 
 
 
