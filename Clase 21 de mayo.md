@@ -173,7 +173,7 @@ $$ \Theta (s) = T_{c}(s)\frac{1}{(s^{2}J+bs)} $$
 
 $$ I_{a} = \frac{V_{a} - K_{b}\omega }{L_{s} + R_{a}} $$
 
-$$ L\left\{ \int f(t)dt\left. \right \}\right. = \frac{F(s)}{S} $$
+$$  L(\int f(t)dt)=\frac{F(s)}{s}$$
 ![](71.jpg)
 
 # Elementos transmisores de energia
