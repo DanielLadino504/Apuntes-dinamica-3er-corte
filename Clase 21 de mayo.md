@@ -227,7 +227,7 @@ $$ V_{0} = \frac{\theta }{\theta _{max}}V\propto $$
 
 $$ V_{0} = log_{10}\left ( \frac{\theta }{\theta _{Max}}V_{cc} \right) $$
 
-$$ V_{o} = Log_{10}\left ( \frac{\theta }{\theta Max} Vcc\right ) $$
+$$ V_{o} = Log_{10}\left ( \frac{\theta }{\theta Max} V_{cc} \right ) $$
 
 ## Potenciometros de translacion 
 
