@@ -272,6 +272,17 @@ $$G_{s} = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _ {inicial} s + \rho _ {in} v _ {in
 
 $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{2s+3*4}{s+4} $$
 
+# Ejemplo del tema 
+1. Sea un tanque lleno con 10 litros de agua salada en el cual están disueltos 1.5 kg de sal. Una solución de salmuera con 4 kg de sal por litro entra al tanque a una velocidad de 5 l/min, mientras la mezcla bien agitada sale a la misma velocidad con la que entra.
+Funcion de transferencia
+
+$$ G_{s} = \frac{Q(s)}{Q_{i}(s)} = \frac{1.5s+4*5}{s+5} = \frac{1.5s+20}{s+5} $$
+
+3. Un tanque contiene 12 litros de agua salada con 3 kg de sal disueltos. Se agrega salmuera con una concentración de 2 kg por litro a una velocidad de 3 l/min, y al mismo tiempo, la mezcla agitada sale del tanque a la misma velocidad.
+Funcion de transferencia 
+
+$$ G_{s} = \frac{Q(s)}{Q_{i}(s)} = \frac{3s+2*3}{s+3} = \frac{3s+6}{s+3} $$
+
 ## Sistemas termicos
 
 ![](66.jpg)
@@ -285,5 +296,28 @@ $$ G(s) = \frac{T(s)}{Q_{in}(s)} = \frac{1/C}{s+1/RC} $$
 Diagrama de bloques 
 
 ![](68.jpg)
+
+# Ejemplo en clase
+1.
+
+2.
+
+
+
+
+
+
+
+
+
+2.
+
+
+
+
+
+
+
+
 
 
