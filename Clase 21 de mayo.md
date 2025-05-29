@@ -187,11 +187,6 @@ $$  L(\int f(t)dt)=\frac{F(s)}{s}$$
 
 ![](60.jpg)
 
-
-$$ \frac{T _{2}}{T _{1}} = \frac{N_{2}}{N_{1}} $$
- 
-$$  \frac{\tau _{2}}{\tau _{1}} = \frac{N_{2}}{N_{1}} $$
-
 $$ \frac{N_{2}}{N_{1}} = -\frac{\theta_{1} }{\theta_{2}} $$
 
 ## Diagrama de bloques 
