@@ -283,5 +283,5 @@ Diagrama de bloques
 
 ![](68.jpg)
 
-
+$$ \frac{T _{2}}{T _{1}} = \frac{N_{2}}{N_{1}} $$
 
