@@ -251,6 +251,7 @@ $$ G(s) = \frac{V(s)}{\Theta (s)} = ks $$
 ![](64.jpg)
 
 - Si son lineales
+
 $$ H(s) = \frac{TO}{PV} = K $$
 
 - si no son lineales, funcion de transferencia de primer grado
