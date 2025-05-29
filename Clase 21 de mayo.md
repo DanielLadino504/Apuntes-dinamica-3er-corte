@@ -204,9 +204,13 @@ $$ \frac{N_{2}}{N_{1}} = -\frac{\theta_{1} }{\theta_{2}} $$
 ![](74.jpg)
 
 Fuerzas y distacion son constantes 
+
 $$ -\frac{f_{2}}{f_{1}} = \frac{d_{1}}{d_{2}} $$
+
 Distacias y desplazamiento constantes 
+
 $$ \frac{d_{1}}{d_{2}} = \frac{x_{1}}{x_{2}} $$
+
 # POTENCIOMETRO
 ## Potenciometro de rotacion 
 
@@ -215,14 +219,19 @@ $$ \frac{d_{1}}{d_{2}} = \frac{x_{1}}{x_{2}} $$
 ![](61.jpg)
 
 ## Potenciometro lineal
+
 $$ V_{0} = \frac{\theta }{\theta _{max}}V\propto $$
+
 ## Potenciometros logaritmicos 
+
 $$ V_{0} = log_{10}\left ( \frac{\theta }{\theta _{Max}}V_{cc} \right) $$
+
 ## Potenciometros de translacion 
 
 ![](62.jpg)
 
 Funcion de transferencia todo va a estar a terminos de desplazamiento lineal 
+
 $$ V_{0} = \frac{x}{x_{Max}}V_{\propto} $$
 
 # TACOMETROS
@@ -242,7 +251,9 @@ $$ G(s) = \frac{V(s)}{\Theta (s)} = ks $$
 
 - Si son lineales
 $$ H(s) = \frac{TO}{PV} = K $$
+
 - si no son lineales, funcion de transferencia de primer grado
+
 $$ H(s) = \frac{TO(s)}{PV(s)} = \frac{K_{T}}{\tau _{T}S+1} $$
 
 # Modelos de otros procesos 
@@ -251,6 +262,7 @@ $$ H(s) = \frac{TO(s)}{PV(s)} = \frac{K_{T}}{\tau _{T}S+1} $$
 ![](65.jpg)
 
 Funcion de transferencia 
+
 $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _{inicial}s+\rho _{in}v_{in}}{s+v_{out}} $$
 
 ## Ejemplo en clase
