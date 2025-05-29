@@ -145,7 +145,6 @@ $$ \frac{\Theta (s)}{V_{c}(s)} = \frac{K_{m}}{(sL_{c}+R_{c})(Js^{2}+bs)} $$
 
 $$ T_{m}(s) = (K_{a}K_{c}I_{c})I_{a}(s) = K_{m}I_{a}(s) $$
 
-
 - La corriente de armadura se relaciona con el volteje aplicando a la armadura por: Parte electrica
 Transformada de LaPlace de la ecuacion Diferencial
 
@@ -188,7 +187,9 @@ $$  L(\int f(t)dt)=\frac{F(s)}{s}$$
 
 ![](60.jpg)
 
+
 $$ \frac{\tau _{2}}{\tau _{1}} = \frac{N_{2}}{N_{1}} $$
+
 
 $$ \frac{N_{2}}{N_{1}} = -\frac{\theta_{1} }{\theta_{2}} $$
 
@@ -265,7 +266,9 @@ $$ H(s) = \frac{TO(s)}{PV(s)} = \frac{K_{T}}{\tau _{T}S+1} $$
 
 Funcion de transferencia 
 
+
 $$ G(s) = \frac{Q(s)}{Q_{i}(s)} = \frac{\rho _{inicial}s+\rho _{in}v_{in}}{s+v_{out}} $$
+
 
 ## Ejemplo en clase
 - Sea un tanque lleno con ocho litros de agua salada en el cual estan disueltos dos kg de sal. Una solucion de salmuera ( agua salada) con tres kg de sal por litro entra al tanque a una velocidad de 4l/min, mientras la mezcla bien agitada sale a la misma velocidad con la que entra.
