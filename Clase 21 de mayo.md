@@ -106,7 +106,7 @@ Como se convierte la corriente en torque que es la que provoca el movimiento del
 
 $$ \phi = K_{c}i_{c} $$
 
-- El torque desarrollado es proporcional al $$ \phi $$ y a la corriente de armadura
+- El torque desarrollado es proporcional al $\phi$ y a la corriente de armadura
 
 $$ T_{m} = K_{a}i_{a}\Phi \Rightarrow T_{m} = K_{a}i_{a}(t)K_{c}i^{c}(t) \Rightarrow T_{m} = (K_{a}K_{c}i_{a})i_{c}(t) $$
 
