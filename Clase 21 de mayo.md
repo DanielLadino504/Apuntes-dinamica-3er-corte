@@ -300,6 +300,8 @@ Diagrama de bloques
 # Ejemplo en clase
 1.Tenemos el siguiente sistema hidraulico:
 
+![](40.jpeg)
+
 Teniendo esto presente nos disponemos a realizar el modelamiento de este sistema:
 
 $$Q_{1}(t)-Q_{2}(t)=\frac{\mathrm{d} V}{\mathrm{d} t}$$
@@ -324,11 +326,27 @@ $$(Q_{1}-f(pgh(t)))\frac{1}{A}=\frac{\mathrm{d} h(t)}{\mathrm{d} t}$$
 
 Una vez obtenemos la funcion de transferencia el diagrama de bloques que obtenemos es:
 
+![](41.jpeg)
 
-2.
+2.Tenemos el siguiente sistema mecanico:
 
+![](42.jpeg)
 
+Teniendo esto en cuenta se dispone a realizar el modelamiento del sistema:
 
+$$F(t)-kx(t)-b(\frac{\mathrm{d} x(t)}{\mathrm{d} t})=M\frac{\mathrm{d^{2}} x(t)}{\mathrm{d} t^{2}}$$
+
+Despejamos la ecuacion:
+
+$$F(t)-b(\frac{\mathrm{d} x(t)}{\mathrm{d} t})-M\frac{\mathrm{d^{2}} x(t)}{\mathrm{d} t^{2}}=kx(t)$$
+
+Finalmente obtenemos la funcion de transferencia del sistema:
+
+$$(F(t)-b(\frac{\mathrm{d} x(t)}{\mathrm{d} t})-M\frac{\mathrm{d^{2}} x(t)}{\mathrm{d} t^{2}})\frac{1}{k}=x(t)$$
+
+Habiendo hecho el modelamiento el diagrama de bloques que obtenemos es:
+
+![](43.jpeg)
 
 
 
