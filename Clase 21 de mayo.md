@@ -298,23 +298,34 @@ Diagrama de bloques
 ![](68.jpg)
 
 # Ejemplo en clase
-1.
+1.Tenemos el siguiente sistema hidraulico:
+
+Teniendo esto presente nos disponemos a realizar el modelamiento de este sistema:
+
+$$Q_{1}(t)-Q_{2}(t)=\frac{\mathrm{d} V}{\mathrm{d} t}$$
+
+$$V=A\cdot h(t)$$
+
+Reemplazamos:
+
+$$Q_{1}(t)-f(P_{T}-P_{atm})=A\cdot\frac{\mathrm{d} h(t)}{\mathrm{d} t}$$
+
+Donde:
+
+$$Q_{1}(t)-f(P_{T}-P_{atm})=A\cdot\frac{\mathrm{d} h(t)}{\mathrm{d} t}$$
+
+Entonces obtenemos:
+
+$$Q_{1}-f(pgh(t))=A\frac{\mathrm{d} h(t)}{\mathrm{d} t}$$
+
+Despejamos y obtenemos la funcion de transferencia:
+
+$$(Q_{1}-f(pgh(t)))\frac{1}{A}=\frac{\mathrm{d} h(t)}{\mathrm{d} t}$$
+
+Una vez obtenemos la funcion de transferencia el diagrama de bloques que obtenemos es:
+
 
 2.
-
-
-
-
-
-
-
-
-
-2.
-
-
-
-
 
 
 
