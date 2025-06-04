@@ -1,6 +1,7 @@
 # Correcion Parcial 2do corte
 
 ## 1. Sistema mecanico #1
+![](1.jpeg)
 
 M1:
 
@@ -16,6 +17,7 @@ $$F_{k1}-F_{w2}-F_{B3}=m_{2}a_{m2}$$
 $$K_{1}(y_{1}-y_{2})+m_{2}g-B_{3}(y_{1}'-yu_{2}')=m_{2}y_{2}''$$
 
 ## 2. Sistema mecanico #2
+![](2.jpeg)
 
 Modelamiento del carro:
 
@@ -30,6 +32,7 @@ $$F_{k}+F_{B}=Ma_{m}$$
 $$K(y-x)+B(y'-x')=My''$$
 
 ## Sistema electrico
+![](3.jpeg)
 
 Modelamiento en terminos de voltaje
 
