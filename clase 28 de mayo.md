@@ -47,7 +47,7 @@ CSTR = Continuos Stirred Tank Reactor = Tanque Reactor de Agitacion Continua, ta
 1.
 - Si se tienen 2 sistemas interconectadas.
   
-
+![](10.jpeg)
 
 $$ Y_{1}(s) = U_{1}(s)G_{1}(s) $$
  
@@ -61,12 +61,12 @@ $$ Y_{2}(s) = U_{1}(s)G_{1}(s)G_{2}(s) $$
 
 $$ \frac{Y_{2}(s)}{U_{1}(s)} = G_{1}(s)G_{2}(s) $$
 
-
+![](11.jpeg)
 
 2.
 - Identificar los elementos de Sistema de la figura.
 
-
+![](12.jpeg)
 
 Tipos de elementos 
 - Punto suma
@@ -77,9 +77,9 @@ Tipos de elementos
 ## Algebra de bloques 
 Utilizando algebra de bloques es posibles obtener la funcion de transferencia de sistemas compuestos de varios bloques funcionales.
 
+![](13.jpeg)
 
-
-
+![](14.jpeg)
 
 Reglas
 1. Un punto suma varias entadas en los mismo que separarlos en varios puntos suma, no reduce el diagrama pero si premite organizarlo.
@@ -90,7 +90,7 @@ Reglas
 
 Matematicamente para la regla 8 
 
-
+![](15.jpeg)
 
 Ecuaciones 
 
