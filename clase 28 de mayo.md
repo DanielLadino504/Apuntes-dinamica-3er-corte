@@ -84,13 +84,48 @@ Utilizando algebra de bloques es posibles obtener la funcion de transferencia de
 Reglas
 1. Un punto suma varias entadas en los mismo que separarlos en varios puntos suma, no reduce el diagrama pero si premite organizarlo.
 2. Si de un punto de ramificacion salen varias señales es lo mismo separar en varios puntos de ramificacion siempre y cuandra esa la misma señal.
-3.4.5.6. No reducen 
+3. 4. 5. 6. No reduce el diagrama de bloque pero si permiten tranformar reglas que si los reduscan
+7. 8. 9. Esas si permiten reducir el diagrama de bloques
+9. Regla de retroalimentacion y de reducion 
+
+Matematicamente para la regla 8 
+
+
+
+Ecuaciones 
+
+$$ Y_{1} = UG_{1} $$
+
+$$ Y_{2} = UG_{2} $$
+
+Puntos suma
+
+$$ Y = Y_{1}+Y_{2} $$
+
+Reemplaza 
+
+$$ Y = UG_{1}+UG_{2} $$
+
+Fractorizar 
+
+$$ Y = U(G_{1}+G_{2}) $$
+
+$$ \frac{Y}{U} = G_{1}+G_{2} $$
+
+# Demostracion propiedades 
 
 
 
 
 
- 
+
+
+
+
+
+
+
+
 
 
 
