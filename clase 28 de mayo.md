@@ -116,7 +116,7 @@ $$ \frac{Y}{U} = G_{1}+G_{2} $$
 ## Lazo de realimentacion positivo 
 ## Ejemplo de clase
 
-
+![](20.jpeg)
 
 Punto Suma 
 
@@ -147,7 +147,7 @@ $$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 - G_{2}(s)G_{1}(s)} $$
 ## Lazo de realimentacion negativa 
 Es lo mismo que la positiva pero solamente cambia el signo.
 
-
+![](20.jpeg)
 
 Punto Suma 
 
@@ -180,11 +180,11 @@ $$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 + G_{2}(s)G_{1}(s)} $$
 # Ejemplo de clase
 - Hallar la funcion de transferencia $ \frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)} $
 
-
+![](21.jpeg)
 
 Reducion 
 
-
+![](22.jpeg)
 
 Funciones de transferencia 
 
@@ -195,13 +195,13 @@ $$ \frac{Y(s)}{X_{2}(s)} = (G_{4}-1) $$
 2.
 -Hallar la funcion de transferencia $ \frac{C(s)}{R(s)} $
 
+![](23.jpeg)
 
+![](24.jpeg)
 
+![](25.jpeg)
 
-
-
-
-
+![](26.jpeg)
 
 
 
