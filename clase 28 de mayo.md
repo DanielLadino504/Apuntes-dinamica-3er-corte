@@ -113,16 +113,91 @@ $$ Y = U(G_{1}+G_{2}) $$
 $$ \frac{Y}{U} = G_{1}+G_{2} $$
 
 # Demostracion propiedades 
+## Lazo de realimentacion positivo 
+## Ejemplo de clase
 
 
 
+Punto Suma 
+
+$$ E(s) = X(s) + Y_{1}(s) $$
+
+Ecuacion para el bloque funcional 
+
+$$ Y(s) = E(s)G_{1}(s) $$
+
+$$ Y_{1}(s) = Y(s)G_{2}(s) $$
+
+Sustituyendo 1 en 2
+
+$$ Y(s) = (X(s) + Y_{1}(s))G_{1}(S) $$
+
+$$ Y(s) = (X(s) + Y(s)G_{2}(s))G_{1}(S) $$
+
+$$ Y(s) = (X(s)G_{1}(s) + Y(s)G_{2}(s)G_{1}(s)) $$
+
+$$ Y(s) - Y(s)G_{2}(s)G_{1}(s) = (X(s)G_{1}(s)) $$
+
+$$ Y(s)(1 - G_{2}(s)G_{1}(s)) = (X(s)G_{1}(s)) $$
+
+Funcion de transferecia 
+
+$$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 - G_{2}(s)G_{1}(s)} $$
+
+## Lazo de realimentacion negativa 
+Es lo mismo que la positiva pero solamente cambia el signo.
 
 
 
+Punto Suma 
+
+$$ E(s) = X(s) - Y_{1}(s) $$
+
+Ecuacion para el bloque funcional 
+
+$$ Y(s) = E(s)G_{1}(s) $$
+
+$$ Y_{1}(s) = Y(s)G_{2}(s) $$
+
+Sustituyendo 1 en 2
+
+$$ Y(s) = (X(s) - Y_{1}(s))G_{1}(S) $$
+
+$$ Y(s) = (X(s) - Y(s)G_{2}(s))G_{1}(S) $$
+
+$$ Y(s) = (X(s)G_{1}(s) - Y(s)G_{2}(s)G_{1}(s)) $$
+
+$$ Y(s) + Y(s)G_{2}(s)G_{1}(s) = (X(s)G_{1}(s)) $$
+
+$$ Y(s)(1 + G_{2}(s)G_{1}(s)) = (X(s)G_{1}(s)) $$
+
+Funcion de transferecia 
+
+$$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 + G_{2}(s)G_{1}(s)} $$
+
+# Reduccion de diagramas 
+## Aplicacion algebra de bloques 
+# Ejemplo de clase
+- Hallar la funcion de transferencia $ \frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)} $
 
 
 
+Reducion 
 
+
+
+Funciones de transferencia 
+
+$$ \frac{Y(s)}{X_{1}(s)} = G_{3}(G_{1}-G_{2}) $$
+
+$$ \frac{Y(s)}{X_{2}(s)} = (G_{4}-1) $$
+
+2.
+-Hallar la funcion de transferencia $ \frac{C(s)}{R(s)} $
+
+
+
+F
 
 
 
