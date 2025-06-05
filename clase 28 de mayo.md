@@ -25,32 +25,72 @@ Diagrama de bloques
 ![](35.jpeg)
 
 ## Interpretacion del diagrama
-- La salida de un bloque funcional corresponde a la señal de entrada (Dominios) multiplicada por la funcion de transferencia del bloque 
+- La salida de un bloque funcional corresponde a la señal de entrada (Dominios) multiplicada por la funcion de transferencia del bloque. 
 
 ![](36.jpeg)
 
-Y(s) = U(s) * G(s)
+$$ Y(s) = U(s) * G(s) $$
 
 Funcion de transfetencia
 
-\frac{Y(s)}{U(s)} = G(s)
+$$ \frac{Y(s)}{U(s)} = G(s) $$
 
 ## Aplicacion de una diagrama de bloques 
-CSTR = Continuos Stirred Tank Reactor = Tanque Reactor de Agitacion Continua, tanque donde se juntan varias sustancias y sale sola una sustancia 
+CSTR = Continuos Stirred Tank Reactor = Tanque Reactor de Agitacion Continua, tanque donde se juntan varias sustancias y sale sola una sustancia.
 
 ![](37.jpeg)
 
 ![](38.jpeg)
 
-## Ejemplo de clase
-bloques en cascada
-- si se tienen 2 sistemas interconectadas
-- 
+# Ejemplo de clase
+## Bloques en cascada
+1.
+- Si se tienen 2 sistemas interconectadas.
+  
+
+
+$$ Y_{1}(s) = U_{1}(s)G_{1}(s) $$
+ 
+$$ Y_{2}(s) = U_{2}(s)G_{2}(s) $$
+ 
+Sustituimos
+ 
+$$ Y_{2}(s) = Y_{1}(s)G_{2}(s) $$
+ 
+$$ Y_{2}(s) = U_{1}(s)G_{1}(s)G_{2}(s) $$
+
+$$ \frac{Y_{2}(s)}{U_{1}(s)} = G_{1}(s)G_{2}(s) $$
+
+
+
+2.
+- Identificar los elementos de Sistema de la figura.
+
+
+
+Tipos de elementos 
+- Punto suma
+- Bloque funcional
+- Flechas (Señales)
+- Ramificacion 
+
+## Algebra de bloques 
+Utilizando algebra de bloques es posibles obtener la funcion de transferencia de sistemas compuestos de varios bloques funcionales.
 
 
 
 
 
+Reglas
+1. Un punto suma varias entadas en los mismo que separarlos en varios puntos suma, no reduce el diagrama pero si premite organizarlo.
+2. Si de un punto de ramificacion salen varias señales es lo mismo separar en varios puntos de ramificacion siempre y cuandra esa la misma señal.
+3.4.5.6. No reducen 
+
+
+
+
+
+ 
 
 
 
