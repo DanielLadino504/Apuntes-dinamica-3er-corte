@@ -157,11 +157,11 @@ POLOS
 
 $$ s^{2} + 0.5s + 1 $$
 
--A = 1
+- A = 1
 
--B = 0.5 
+- B = 0.5 
 
--C = 1
+- C = 1
 
 La resolvemos por la ecuacion cuadratica 
 
