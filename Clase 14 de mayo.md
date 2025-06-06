@@ -15,7 +15,7 @@ Se tiene 3 cosas posibles:
 - m > n    Estrictamente propia 
 - n = m    Bipropia
 
-## EJEMPLO DE LA CLASE 
+## EJEMPLO DE CLASE 
 
 $$ G(s) = \frac{s^{2} + 1}{s} = Impropia $$
 
@@ -27,7 +27,7 @@ $$ G(s) = \frac{(s^{2} - 1)}{s + 1} =  Impropia $$
 
 $$ G(s) = \frac{s - 1}{s + 1} = Bipropia $$         
 
-## EJEMPLO POR TEMA 
+## EJEMPLO DE TEMA 
 
 $$ G(s) = \frac{5}{2s + 1} = Estrictamente propia $$               
 
