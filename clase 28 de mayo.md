@@ -213,7 +213,35 @@ Funcion de transferencia total del diagrama
 ![](26.jpeg)
 
 ## Ejemplo de tema
+1.
+Simplificar el diagra de bloques y obtenga la funcion de transferencia
 
+
+
+
+
+Funcion de trasferencia de lazo cerrado 
+
+$$ \frac{G}{H_{2}} $$ 
+
+Funcion punto suma 
+
+$$ \frac{H_{1}}{G}+1 $$
+
+
+
+Funcion de tranferencia resultante 
+
+\frac{G + H_{1}}{1 + GH_{2}}
+
+
+
+2.
+Simplificar el diagra de bloques y obtenga la funcion de transferencia
+
+
+
+Funcion 
 
 
 
