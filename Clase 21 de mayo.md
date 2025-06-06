@@ -2,7 +2,6 @@
 ## MODELOS DE SISTEMAS COMPLEJOS
 - Se podrian modelar sistemas como un todo hallando las funciones de transferencia de cada componente.
 - Otro enfoque es utiliza modelos ya desarrollados ampliamente para construir modelos mas complejos.
-
 # SOLENOIDE
 ## MODELO DEL CIRCUITO ELECTROMAGNETICO
 - Es un circuito electrico formado por un circuito electrico, un acoplamiento electromecanico y un sistema mecanico de traslacion.
