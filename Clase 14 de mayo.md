@@ -39,7 +39,7 @@ $$ G(s) = \frac{s^{2} + 2s + 1}{s + 1} = Impropia $$
 $$ G(s) = \frac{s^{3} + 2s + 1}{s^{2} + s + 1} = Impropia $$  
 
 # ZEROS DE UNA FUNCION DE TRANSFERENCIA 
-- Si se igual N(S) a 0 se obtienen lo valores de "S" que cumple con la condicion.
+- Si se igual N(s) a 0 se obtienen lo valores de "s" que cumple con la condicion.
 - Si el numerador se hace 0 toda la funcion de transferencia se vuelve cero de ahi el nombre para estos valores de "s".
 - Estos valores pueden ser reales o complejos por lo tanto se puede ubicar en un plano cartesino.
 
