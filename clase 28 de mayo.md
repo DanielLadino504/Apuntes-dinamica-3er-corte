@@ -74,6 +74,11 @@ Tipos de elementos
 - Flechas (Señales)
 - Ramificacion 
 
+## Ejemplo de tema
+
+
+
+
 ## Algebra de bloques 
 Utilizando algebra de bloques es posibles obtener la funcion de transferencia de sistemas compuestos de varios bloques funcionales.
 
@@ -84,11 +89,11 @@ Utilizando algebra de bloques es posibles obtener la funcion de transferencia de
 Reglas
 1. Un punto suma varias entadas en los mismo que separarlos en varios puntos suma, no reduce el diagrama pero si premite organizarlo.
 2. Si de un punto de ramificacion salen varias señales es lo mismo separar en varios puntos de ramificacion siempre y cuandra esa la misma señal.
-3. 4. 5. 6. No reduce el diagrama de bloque pero si permiten tranformar reglas que si los reduscan
-7. 8. 9. Esas si permiten reducir el diagrama de bloques
-9. Regla de retroalimentacion y de reducion 
+3. 4. 5. 6. No reduce el diagrama de bloque pero si permiten tranformar reglas que si los reduscan.
+7. 8. 9. Esas si permiten reducir el diagrama de bloques.
+9. Regla de retroalimentacion y de reducion.
 
-Matematicamente para la regla 8 
+Matematicamente para la regla 8
 
 ![](15.jpeg)
 
@@ -178,6 +183,7 @@ $$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 + G_{2}(s)G_{1}(s)} $$
 # Reduccion de diagramas 
 ## Aplicacion algebra de bloques 
 ## Ejemplo de clase
+1.
 - Hallar la funcion de transferencia $ \frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)} $
 
 ![](21.jpeg)
@@ -197,11 +203,19 @@ $$ \frac{Y(s)}{X_{2}(s)} = (G_{4}-1) $$
 
 ![](23.jpeg)
 
+Reducion 
+
 ![](24.jpeg)
 
 ![](25.jpeg)
 
+Funcion de transferencia total del diagrama 
 ![](26.jpeg)
+
+## Ejemplo de tema
+
+
+
 
 
 
