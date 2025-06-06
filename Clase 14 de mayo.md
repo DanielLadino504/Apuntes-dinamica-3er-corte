@@ -7,6 +7,7 @@ $$ G(s) = \frac{N(s)}{D(s)} $$
 Donde N(s) Y D(s) son polinomios de variable "s".
 
 Si denominamos n al grado del polimonio del numerador.
+
 Si denominamos m al grado del polimonio del denominador.
 
 Se tiene 3 cosas posibles: 
@@ -16,29 +17,29 @@ Se tiene 3 cosas posibles:
 
 ## EJEMPLO DE LA CLASE 
 
-$$ G(s) = \frac{s^{2}+1}{s} = Impropia $$
+$$ G(s) = \frac{s^{2} + 1}{s} = Impropia $$
 
 $$ G(s) = 2 = Bipropia $$                     
 
-$$ G(s) = \frac{1}{s+1} = Estrictamente propia $$         
+$$ G(s) = \frac{1}{s + 1} = Estrictamente propia $$         
 
-$$ G(s) = \frac{(s^{2}-1)}{s+1} =  Impropia $$    
+$$ G(s) = \frac{(s^{2} - 1)}{s + 1} =  Impropia $$    
 
-$$ G(s) = \frac{s-1}{s+1} = Bipropia $$         
+$$ G(s) = \frac{s - 1}{s + 1} = Bipropia $$         
 
 ## EJEMPLO POR TEMA 
 
-$$ G(s) = \frac{5}{2s+1} = Estrictamente propia $$               
+$$ G(s) = \frac{5}{2s + 1} = Estrictamente propia $$               
 
-$$ G(s) = \frac{25}{s^{2}+4s+25} = Estrictamente propia $$       
+$$ G(s) = \frac{25}{s^{2} + 4s + 25} = Estrictamente propia $$       
 
-$$ G(s) = \frac{2s+3}{s+5} = Bipropia $$            
+$$ G(s) = \frac{2s + 3}{s + 5} = Bipropia $$            
 
-$$ G(s) = \frac{s^{2}+1}{s^{2}+3s+2} = Bipropia $$   
+$$ G(s) = \frac{s^{2} + 1}{s^{2} + 3s + 2} = Bipropia $$   
 
-$$ G(s) = \frac{s^{2}+2s+1}{s+1} = Impropia $$       
+$$ G(s) = \frac{s^{2} + 2s + 1}{s + 1} = Impropia $$       
 
-$$ G(s) = \frac{s^{3}+2s+1}{s^{2}+s+1} = Impropia $$  
+$$ G(s) = \frac{s^{3} + 2s + 1}{s^{2} + s + 1} = Impropia $$  
 
 # ZEROS DE UNA FUNCION DE TRANSFERENCIA 
 
@@ -52,7 +53,7 @@ Estos valores pueden ser reales o complejos por lo tanto se puede ubicar en un p
 
 1.
 
-$$ G(s) = \frac{Y(s)}{U(s)} = \frac{3s-1}{s^{2}+3s+1} = \frac{N(s)}{D(s)} $$
+$$ G(s) = \frac{Y(s)}{U(s)} = \frac{3s - 1}{s^{2} + 3s + 1} = \frac{N(s)}{D(s)} $$
 
 $$ N(s) = 0 $$   
 
@@ -66,53 +67,53 @@ $$ s = \frac{1}{3} $$
 
 2.
 
-$$ G(s) = \frac{s^{2}+4s+1}{s^{4}+3s^{3}+3s^{2}+s+2} $$
+$$ G(s) = \frac{s^{2} + 4s + 1}{s^{4} + 3s^{3} + 3s^{2} + s + 2} $$
 
-$$ s^{2}+4s+1 = 0 $$
+$$ s^{2} + 4s + 1 = 0 $$
 
 Se resulve por ecuacion cuadratica 
 
-$$ s = \frac{-b\pm \sqrt{b^{2}-4ac}}{2a} $$
+$$ s = \frac{- b\pm \sqrt{b^{2} - 4ac}}{2a} $$
 
 Se reemplaza 
 
-$$ s = \frac{-4\pm \sqrt{4^{2}-4(1)(1)}}{2(1)} $$
+$$ s = \frac{- 4\pm \sqrt{4^{2} - 4(1)(1)}}{2(1)} $$
 
 Se Soluciona 
 
-$$ s = \frac{-4\pm \sqrt{16-4}}{2} $$
+$$ s = \frac{- 4\pm \sqrt{16 - 4}}{2} $$
 
-$$ s = -2\pm \frac{\sqrt{12}}{2} $$
+$$ s = - 2\pm \frac{\sqrt{12}}{2} $$
 
-$$ s = -2\pm \frac{2\sqrt{3}}{2} $$
+$$ s = - 2\pm \frac{2\sqrt{3}}{2} $$
 
 Se cancelan los 2 
 
-$$ s = -2\pm \sqrt{3} $$
+$$ s = - 2 \pm \sqrt{3} $$
 
 Solucion 1
 
-$$ s = -2+\sqrt{3} $$
+$$ s = - 2 + \sqrt{3} $$
 
 Solucion 2
 
-$$ s = -2-\sqrt{3} $$
+$$ s = -2 - \sqrt{3} $$
 
 ## EJEMPLO POR TEMA
 
 1.
 
-$$ G(s) = \frac{s+3}{s^{3}+4s+5} $$
+$$ G(s) = \frac{s + 3}{s^{3} + 4s + 5} $$
 
 $$ s + 3 = 0 \Rightarrow s = -3 $$
 
 2.
 
-$$ G(s) = \frac{s^{2}+2s+1}{s^{2}+3s+2} $$
+$$ G(s) = \frac{s^{2} + 2s + 1}{s^{2} + 3s + 2} $$
 
 El numerdor es un trinomio cuadrado
 
-$$ s^{2} - 2s + 1 = (s-1)^{2} $$
+$$ s^{2} - 2s + 1 = (s - 1)^{2} $$
 
 $$ s = 1 (multiplicidad 2) $$
 
@@ -126,15 +127,15 @@ Estos valores pueden ser reales o complejos por lo tanto se pueden en un plano c
 
 ## EJEMPLOS DE LA CLASE
 
-$$ G(s) = \frac{Y(s)}{U(s)}=\frac{3s-1}{s^{2}+3s+2}=\frac{N(s)}{D(s)} $$
+$$ G(s) = \frac{Y(s)}{U(s)} = \frac{3s - 1}{s^{2} + 3s + 2} = \frac{N(s)}{D(s)} $$
 
 POLOS
 
 $$ D(s) = 0 $$
 
-$$ s^{2}+3s+2 = 0 $$
+$$ s^{2} + 3s + 2 = 0 $$
 
-$$ (s+1)(s+2) = 0 $$
+$$ (s + 1)(s + 2) = 0 $$
 
 $$ s = -1 $$
 
@@ -154,7 +155,7 @@ POLOS
 
 1.
 
-$$ s^{2}+0.5s+1 $$
+$$ s^{2} + 0.5s + 1 $$
 
 -A = 1
 
@@ -164,15 +165,15 @@ $$ s^{2}+0.5s+1 $$
 
 La resolvemos por la ecuacion cuadratica 
 
-$$ \frac{-b\pm \sqrt{b^{2}-4ac}}{2a} $$
+$$ \frac{- b\pm \sqrt{b^{2} - 4ac}}{2a} $$
 
 Remplazamos 
 
-$$ \frac{-0.5\pm \sqrt{(0.5)^{2}-4(1)(1)}}{2(1)} $$
+$$ \frac{- 0.5\pm \sqrt{(0.5)^{2} - 4(1)(1)}}{2(1)} $$
 
 Resolvemos raiz
 
-$$ \frac{-0.5\pm \sqrt{-3.75}}{2} $$
+$$ \frac{- 0.5\pm \sqrt{-3.75}}{2} $$
 
 Resolvemos division
 
@@ -180,47 +181,47 @@ $$ -\frac{1}{4}\pm 0.96i $$
 
 Solucion 1
 
-$$ s = -\frac{1}{4}+\ 0.96i $$
+$$ s = -\frac{1}{4} + \ 0.96i $$
 
 Solucion 2
 
-$$ s = \frac{1}{4}-\ 0.96i $$
+$$ s = \frac{1}{4} - \ 0.96i $$
  
 ## EJEMPLOS POR TEMA 
 
 1.
 
-$$ G(s) = \frac{s+2}{s^{2}+5s+6} $$
+$$ G(s) = \frac{s+2}{s^{2} + 5s + 6} $$
 
 Factorizar
 
-$$ s^{2} + 5s + 6 = (s+2)(s+3) $$
+$$ s^{2} + 5s + 6 = (s + 2)(s + 3) $$
 
 Solucion 1
 
-$$ s=-2 $$
+$$ s = -2 $$
 
 Solucion 2
 
-$$ s=-3 $$
+$$ s = -3 $$
 
 2.
 
-$$ G(s) = \frac{1}{s^{2}+4} $$
+$$ G(s) = \frac{1}{s^{2} + 4} $$
 
 Resolvemos
 
-$$ s^{2}+4 = 0 \Rightarrow s=\pm 2i $$
+$$ s^{2} + 4 = 0 \Rightarrow s = \pm 2i $$
 
 Polos complejos en s
 
 Solucion 1
 
-$$ s= +2i $$
+$$ s = +2i $$
 
 Solucion 2
 
-$$ s= -2i $$
+$$ s = -2i $$
 
 # GRADOS DE UNA FUNCION DE TRANSFERENCIA 
 
@@ -228,13 +229,13 @@ Otra forma de clasificar las funcones de transferencia es por su orden o grado
 
 ## EJEMPLOS DE LA CLASE
 
-$$G(s)=\frac{3s+1}{s^{2}+3s+2}$$
+$$G(s) = \frac{3s + 1}{s^{2} + 3s + 2}$$
 
 Polinomio caracteristico de segundo orden
 
 # TEOREMA DEL VALOR FINAL
 
-El error en estado estacionario corresponde al error medido en $$t=\infty$$
+El error en estado estacionario corresponde al error medido en $$t = \infty$$
 
 Es posible aprovechar el teorema del valor final para saber el valor final del error 
 
@@ -242,25 +243,25 @@ $$ \displaystyle \lim_{t \to \infty }f(t) = \displaystyle \lim_{s \to 0}sF(s) $$
 
 ## EJEMPLO DE LA CLASE
 
-$$ G(s) = \frac{Y(s)}{U(s)} = \frac{4}{5s+1} $$
+$$ G(s) = \frac{Y(s)}{U(s)} = \frac{4}{5s + 1} $$
 
-$$ Y(s) = \frac{4*U(s)}{5s+1} $$
+$$ Y(s) = \frac{4 * U(s)}{5s + 1} $$
 
 Si la entrada es un escalon 
 
-$$ Y(s) = \frac{\frac{4}{s}}{5s+1} $$
+$$ Y(s) = \frac{\frac{4}{s}}{5s + 1} $$
 
 El valor final de Y(s) se puede calcular aplicando el teorema del valor final
 
-$$ \displaystyle \lim_{s \to 0}sY(s) = \displaystyle \lim_{s \to 0}s*\frac{\frac{4}{s}}{5s+1} $$
+$$ \displaystyle \lim_{s \to 0}sY(s) = \displaystyle \lim_{s \to 0}s * \frac{\frac{4}{s}}{5s + 1} $$
 
-$$ \displaystyle \lim_{s \to 0}\frac{4}{5s+1} = 4 $$
+$$ \displaystyle \lim_{s \to 0}\frac{4}{5s + 1} = 4 $$
 
 ## ACTIVIDAD 
 
 1.
 
-$$ G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^{3}+6s^{2}+11s+6} $$
+$$ G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Donde 
 
@@ -268,23 +269,23 @@ $$ U(s) = \frac{4}{s} $$
 
 Despejamos U(s)
 
-$$ Y(s) = \frac{8*U(s)}{s^{3}+6s^{2}+11s+6} $$
+$$ Y(s) = \frac{8 * U(s)}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Remplazamos U(s)
 
-$$ Y(s) = \frac{8*\frac{4}{s}}{s^{3}+6s^{2}+11s+6} $$
+$$ Y(s) = \frac{8 * \frac{4}{s}}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{32}{s}}{s^{3}+6s^{2}+11s+6} $$
+$$ Y(s) = \frac{\frac{32}{s}}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Teorema de valor final 
 
-$$ \displaystyle \lim_{ s\to 0}sY(s) = \displaystyle \lim_{ s\to 0}s*\frac{\frac{32}{s}}{s^{3}+6s^{2}+11s+6} $$
+$$ \displaystyle \lim_{ s\to 0}sY(s) = \displaystyle \lim_{ s\to 0}s * \frac{\frac{32}{s}}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Remplazamos en el limite
 
-$$ \displaystyle \lim_{ s\to 0}\frac{32}{s^{3}+6s^{2}+11s+6} $$
+$$ \displaystyle \lim_{ s\to 0}\frac{32}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Resolvemos
 
@@ -292,7 +293,7 @@ $$ \frac{32}{6} = \frac{16}{3} $$
 
 2.
 
-$$ G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^{3}+8s^{2}+15s} $$
+$$ G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^{3} + 8s^{2} + 15s} $$
 
 Donde
 
@@ -300,23 +301,23 @@ $$ U(s) = \frac{3}{s^{2}} $$
 
 Despejamos U(s)
 
-$$ Y(s) = \frac{8*U(s)}{s^{3}+8s^{2}+15s} $$
+$$ Y(s) = \frac{8 * U(s)}{s^{3} + 8s^{2} + 15s} $$
 
 Remplazamos U(s)
 
-$$ Y(s) = \frac{8*\frac{3}{s^{2}}}{s^{3}+8s^{2}+15s} $$
+$$ Y(s) = \frac{8 * \frac{3}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{24}{s^{2}}}{s^{3}+8s^{2}+15s} $$
+$$ Y(s) = \frac{\frac{24}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
 
 Teorema de valor final 
 
-$$ \displaystyle \lim_{ s\to 0}sY(s) = \displaystyle \lim_{ s\to 0}s*\frac{\frac{24}{s^{2}}}{s^{3}+8s^{2}+15s} $$
+$$ \displaystyle \lim_{ s\to 0}sY(s) = \displaystyle \lim_{ s\to 0}s * \frac{\frac{24}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
 
 Remplazamos en el limite
 
-$$ \displaystyle \lim_{ s\to 0}\frac{\frac{24}{s}}{s^{3}+8s^{2}+15s} $$
+$$ \displaystyle \lim_{ s\to 0}\frac{\frac{24}{s}}{s^{3} + 8s^{2} + 15s} $$
 
 Resolvemos
 
@@ -325,7 +326,7 @@ $$ \frac{24}{0} = \infty $$
 ## EJEMPLO POR TEMA 
 
 1.
-$$ G(s) = \frac{Y(s)}{U(s)}=\frac{5}{s+2} $$
+$$ G(s) = \frac{Y(s)}{U(s)} = \frac{5}{s + 2} $$
  
 Donde
 
@@ -333,23 +334,23 @@ $$ U(s) = \frac{1}{s} $$
 
 Despejamos U(s)
 
-$$ Y(s) = \frac{5*U(s)}{s+2} $$ 
+$$ Y(s) = \frac{5 * U(s)}{s + 2} $$ 
 
 Remplazamos U(s)
 
-$$ Y(s) = \frac{5*\frac{1}{s}}{s+2} $$
+$$ Y(s) = \frac{5 * \frac{1}{s}}{s + 2} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{5}{s}}{s+2} $$
+$$ Y(s) = \frac{\frac{5}{s}}{s + 2} $$
 
 Teorema de valor final
 
-$$ \displaystyle \lim_{s\to 0}sYs = \displaystyle \lim_{s\to 0}s*\frac{\frac{5}{s}}{s+2} $$
+$$ \displaystyle \lim_{s\to 0}sYs = \displaystyle \lim_{s\to 0}s * \frac{\frac{5}{s}}{s + 2} $$
 
 Remplazamos en el limite
 
-$$\displaystyle \lim_{s\to 0}\frac{5}{s+2} $$
+$$\displaystyle \lim_{s\to 0}\frac{5}{s + 2} $$
 
 Resolvemos
 
@@ -357,7 +358,7 @@ $$ \frac{5}{2} $$
 
 2.
 
-$$ G(s) = \frac{10}{s^{2}+4s+5} $$
+$$ G(s) = \frac{10}{s^{2} + 4s + 5} $$
 
 Donde 
 
@@ -365,23 +366,23 @@ $$ U(s) = \frac{1}{s}$$
 
 Despejamos U(s)
 
-$$ Y(s) = \frac{10*U(s)}{s^{2}+4s+2} $$
+$$ Y(s) = \frac{10 * U(s)}{s^{2} + 4s + 2} $$
 
 Remplazamos U(s)
 
-$$ Y(s) = \frac{10*\frac{1}{s}}{s^{2}+4s+2} $$
+$$ Y(s) = \frac{10 * \frac{1}{s}}{s^{2} + 4s + 2} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{10}{s}}{s^{2}+4s+5} $$
+$$ Y(s) = \frac{\frac{10}{s}}{s^{2} + 4s + 5} $$
 
 Teorema de valor final
 
-$$\displaystyle \lim_{s\to 0}sYs = \displaystyle \lim_{s\to 0}s*\frac{\frac{10}{s}}{s^{2}+4s+5} $$
+$$\displaystyle \lim_{s\to 0}sYs = \displaystyle \lim_{s\to 0}s * \frac{\frac{10}{s}}{s^{2} + 4s + 5} $$
 
 Remplazamos en el limite
 
-$$ \displaystyle \lim_{s\to 0}\frac{10}{s^{2}+4s+5} $$
+$$ \displaystyle \lim_{s\to 0}\frac{10}{s^{2} + 4s + 5} $$
 
 Resolvemos
 
@@ -391,7 +392,7 @@ $$\frac{10}{5} = 5 $$
 
 Es una entrada que considera un cambio de nivel repentino.
 
-$$ u(t) = \int_{0 \to para t < t_{0}}^{A\to  para t>t_{0}} $$
+$$ u(t) = \int_{0 \to para t < t_{0}}^{A\to  para t > t_{0}} $$
 
 $$ L{u(t)} = \frac{A}{s} $$
 
@@ -401,7 +402,7 @@ $$ L{u(t)} = \frac{A}{s} $$
 
 En una entrada que varia en el tiempo de forma lineal.
 
-$$ x(t) = \int_{0 \to para t < t_{0}}^{At\to  para t>t_{0}} $$
+$$ x(t) = \int_{0 \to para t < t_{0}}^{At\to  para t > t_{0}} $$
 
 $$ L{x(t)} = \frac{A}{s^{2}} $$
 
@@ -411,7 +412,7 @@ $$ L{x(t)} = \frac{A}{s^{2}} $$
 
 Es una entrada que considera una variacion no linela en el tiempo lo cual permite evaluar direfentes condiciones inicio y final.
 
-$$ r(t) = \int_{0 \to para t < t_{0}}^{At^{2}\to  para t>t_{0}} $$
+$$ r(t) = \int_{0 \to para t < t_{0}}^{At^{2}\to  para t > t_{0}} $$
 
 $$ L{r(t)} = \frac{A}{s^{3}} $$
 
