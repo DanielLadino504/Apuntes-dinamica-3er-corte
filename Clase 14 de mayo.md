@@ -113,7 +113,6 @@ $$ s = 1 (multiplicidad 2) $$
 - Si se iguala D(s) a 0 se obtiene los valores de "s" que cumplen con la condicion.
 - Si el denominador se hace 0 toda la funcion de transferencia se vuelve infinito de ahi el nombre para valores de "s".
 - Estos valores pueden ser reales o complejos por lo tanto se pueden en un plano cartisiano.
-
 ## EJEMPLO DE CLASE
 
 $$ G(s) = \frac{Y(s)}{U(s)} = \frac{3s - 1}{s^{2} + 3s + 2} = \frac{N(s)}{D(s)} $$
@@ -213,13 +212,11 @@ $$ s = -2i $$
 
 # GRADOS DE UNA FUNCION DE TRANSFERENCIA 
 - Otra forma de clasificar las funcones de transferencia es por su orden o grado. 
-
 ## EJEMPLO DE CLASE
 
 $$ G(s) = \frac{3s + 1}{s^{2} + 3s + 2} $$
 
 Polinomio caracteristico de segundo orden
-
 # TEOREMA DEL VALOR FINAL
 - El error en estado estacionario corresponde al error medido en $$t = \infty$$. 
 - Es posible aprovechar el teorema del valor final para saber el valor final del error.
