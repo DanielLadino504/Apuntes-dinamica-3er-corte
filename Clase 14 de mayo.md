@@ -125,7 +125,7 @@ Si el denominador se hace 0 toda la funcion de transferencia se vuelve infinito 
 
 Estos valores pueden ser reales o complejos por lo tanto se pueden en un plano cartisiano.
 
-## EJEMPLOS DE LA CLASE
+## EJEMPLO DE LA CLASE
 
 $$ G(s) = \frac{Y(s)}{U(s)} = \frac{3s - 1}{s^{2} + 3s + 2} = \frac{N(s)}{D(s)} $$
 
@@ -149,7 +149,7 @@ $$ s = -2 $$
 
 ![](97.jpg)
 
-## EJEMPLOS DE LA CLASE
+## EJEMPLO DE LA CLASE
 
 POLOS
 
@@ -187,7 +187,7 @@ Solucion 2
 
 $$ s = \frac{1}{4} - \ 0.96i $$
  
-## EJEMPLOS POR TEMA 
+## EJEMPLO POR TEMA 
 
 1.
 
@@ -227,7 +227,7 @@ $$ s = -2i $$
 
 Otra forma de clasificar las funcones de transferencia es por su orden o grado 
 
-## EJEMPLOS DE LA CLASE
+## EJEMPLO DE LA CLASE
 
 $$G(s) = \frac{3s + 1}{s^{2} + 3s + 2}$$
 
