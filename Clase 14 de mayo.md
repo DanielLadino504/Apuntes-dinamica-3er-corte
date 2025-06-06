@@ -49,7 +49,7 @@ Si el numerador se hace 0 toda la funcion de transferencia se vuelve cero de ahi
 
 Estos valores pueden ser reales o complejos por lo tanto se puede ubicar en un plano cartesino 
 
-## EJEMPLO DE LA CLASE
+## EJEMPLO DE CLASE
 
 1.
 
@@ -99,7 +99,7 @@ Solucion 2
 
 $$ s = -2 - \sqrt{3} $$
 
-## EJEMPLO POR TEMA
+## EJEMPLO DE TEMA
 
 1.
 
@@ -125,7 +125,7 @@ Si el denominador se hace 0 toda la funcion de transferencia se vuelve infinito 
 
 Estos valores pueden ser reales o complejos por lo tanto se pueden en un plano cartisiano.
 
-## EJEMPLO DE LA CLASE
+## EJEMPLO DE CLASE
 
 $$ G(s) = \frac{Y(s)}{U(s)} = \frac{3s - 1}{s^{2} + 3s + 2} = \frac{N(s)}{D(s)} $$
 
@@ -149,7 +149,7 @@ $$ s = -2 $$
 
 ![](97.jpg)
 
-## EJEMPLO DE LA CLASE
+## EJEMPLO DE CLASE
 
 POLOS
 
@@ -177,17 +177,17 @@ $$ \frac{- 0.5\pm \sqrt{-3.75}}{2} $$
 
 Resolvemos division
 
-$$ -\frac{1}{4}\pm 0.96i $$
+$$ - \frac{1}{4}\pm 0.96i $$
 
 Solucion 1
 
-$$ s = -\frac{1}{4} + \ 0.96i $$
+$$ s = - \frac{1}{4} + \ 0.96i $$
 
 Solucion 2
 
 $$ s = \frac{1}{4} - \ 0.96i $$
  
-## EJEMPLO POR TEMA 
+## EJEMPLO DE TEMA 
 
 1.
 
@@ -227,7 +227,7 @@ $$ s = -2i $$
 
 Otra forma de clasificar las funcones de transferencia es por su orden o grado 
 
-## EJEMPLO DE LA CLASE
+## EJEMPLO DE CLASE
 
 $$G(s) = \frac{3s + 1}{s^{2} + 3s + 2}$$
 
@@ -241,7 +241,7 @@ Es posible aprovechar el teorema del valor final para saber el valor final del e
 
 $$ \displaystyle \lim_{t \to \infty }f(t) = \displaystyle \lim_{s \to 0}sF(s) $$
 
-## EJEMPLO DE LA CLASE
+## EJEMPLO DE CLASE
 
 $$ G(s) = \frac{Y(s)}{U(s)} = \frac{4}{5s + 1} $$
 
@@ -249,11 +249,11 @@ $$ Y(s) = \frac{4 * U(s)}{5s + 1} $$
 
 Si la entrada es un escalon 
 
-$$ Y(s) = \frac{\frac{4}{s}}{5s + 1} $$
+$$ Y(s) = \frac{ \frac{4}{s}}{5s + 1} $$
 
 El valor final de Y(s) se puede calcular aplicando el teorema del valor final
 
-$$ \displaystyle \lim_{s \to 0}sY(s) = \displaystyle \lim_{s \to 0}s * \frac{\frac{4}{s}}{5s + 1} $$
+$$ \displaystyle \lim_{s \to 0}sY(s) = \displaystyle \lim_{s \to 0}s * \frac{ \frac{4}{s}}{5s + 1} $$
 
 $$ \displaystyle \lim_{s \to 0}\frac{4}{5s + 1} = 4 $$
 
@@ -277,7 +277,7 @@ $$ Y(s) = \frac{8 * \frac{4}{s}}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{32}{s}}{s^{3} + 6s^{2} + 11s + 6} $$
+$$ Y(s) = \frac{ \frac{32}{s}}{s^{3} + 6s^{2} + 11s + 6} $$
 
 Teorema de valor final 
 
@@ -309,21 +309,21 @@ $$ Y(s) = \frac{8 * \frac{3}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{24}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
+$$ Y(s) = \frac{ \frac{24}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
 
 Teorema de valor final 
 
-$$ \displaystyle \lim_{ s\to 0}sY(s) = \displaystyle \lim_{ s\to 0}s * \frac{\frac{24}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
+$$ \displaystyle \lim_{ s\to 0}sY(s) = \displaystyle \lim_{ s\to 0}s * \frac{ \frac{24}{s^{2}}}{s^{3} + 8s^{2} + 15s} $$
 
 Remplazamos en el limite
 
-$$ \displaystyle \lim_{ s\to 0}\frac{\frac{24}{s}}{s^{3} + 8s^{2} + 15s} $$
+$$ \displaystyle \lim_{ s\to 0}\frac{ \frac{24}{s}}{s^{3} + 8s^{2} + 15s} $$
 
 Resolvemos
 
 $$ \frac{24}{0} = \infty $$
 
-## EJEMPLO POR TEMA 
+## EJEMPLO DE TEMA 
 
 1.
 $$ G(s) = \frac{Y(s)}{U(s)} = \frac{5}{s + 2} $$
@@ -342,7 +342,7 @@ $$ Y(s) = \frac{5 * \frac{1}{s}}{s + 2} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{5}{s}}{s + 2} $$
+$$ Y(s) = \frac{ \frac{5}{s}}{s + 2} $$
 
 Teorema de valor final
 
@@ -350,7 +350,7 @@ $$ \displaystyle \lim_{s\to 0}sYs = \displaystyle \lim_{s\to 0}s * \frac{\frac{5
 
 Remplazamos en el limite
 
-$$\displaystyle \lim_{s\to 0}\frac{5}{s + 2} $$
+$$ \displaystyle \lim_{s\to 0}\frac{5}{s + 2} $$
 
 Resolvemos
 
@@ -374,11 +374,11 @@ $$ Y(s) = \frac{10 * \frac{1}{s}}{s^{2} + 4s + 2} $$
 
 Resolvemos
 
-$$ Y(s) = \frac{\frac{10}{s}}{s^{2} + 4s + 5} $$
+$$ Y(s) = \frac{ \frac{10}{s}}{s^{2} + 4s + 5} $$
 
 Teorema de valor final
 
-$$\displaystyle \lim_{s\to 0}sYs = \displaystyle \lim_{s\to 0}s * \frac{\frac{10}{s}}{s^{2} + 4s + 5} $$
+$$\displaystyle \lim_{s\to 0}sYs = \displaystyle \lim_{s\to 0}s * \frac{ \frac{10}{s}}{s^{2} + 4s + 5} $$
 
 Remplazamos en el limite
 
@@ -392,7 +392,7 @@ $$\frac{10}{5} = 5 $$
 
 Es una entrada que considera un cambio de nivel repentino.
 
-$$ u(t) = \int_{0 \to para t < t_{0}}^{A\to  para t > t_{0}} $$
+$$ u(t) = \int_{0 \to para t < t_{0}} ^ {A\to  para t > t_{0}} $$
 
 $$ L{u(t)} = \frac{A}{s} $$
 
@@ -402,7 +402,7 @@ $$ L{u(t)} = \frac{A}{s} $$
 
 En una entrada que varia en el tiempo de forma lineal.
 
-$$ x(t) = \int_{0 \to para t < t_{0}}^{At\to  para t > t_{0}} $$
+$$ x(t) = \int_{0 \to para t < t_{0}} ^ {At\to  para t > t_{0}} $$
 
 $$ L{x(t)} = \frac{A}{s^{2}} $$
 
@@ -412,7 +412,7 @@ $$ L{x(t)} = \frac{A}{s^{2}} $$
 
 Es una entrada que considera una variacion no linela en el tiempo lo cual permite evaluar direfentes condiciones inicio y final.
 
-$$ r(t) = \int_{0 \to para t < t_{0}}^{At^{2}\to  para t > t_{0}} $$
+$$ r(t) = \int_{0 \to para t < t_{0}} ^ {At^{2}\to  para t > t_{0}} $$
 
 $$ L{r(t)} = \frac{A}{s^{3}} $$
 
