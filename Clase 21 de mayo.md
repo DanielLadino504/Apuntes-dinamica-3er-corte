@@ -297,7 +297,7 @@ Diagrama de bloques
 
 ![](68.jpg)
 
-# EJEMPLO DE TeEMA 
+# EJEMPLO DE TEMA 
 1. Tenemos el siguiente sistema hidraulico:
 
 ![](40.jpeg)
