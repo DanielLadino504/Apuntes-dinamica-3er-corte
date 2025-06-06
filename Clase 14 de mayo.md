@@ -7,7 +7,6 @@ $$ G(s) = \frac{N(s)}{D(s)} $$
 Donde N(s) Y D(s) son polinomios de variable "s".
 
 Si denominamos n al grado del polimonio del numerador.
-
 Si denominamos m al grado del polimonio del denominador.
 
 Se tiene 3 cosas posibles: 
