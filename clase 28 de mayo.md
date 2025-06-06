@@ -232,7 +232,7 @@ $$ \frac{H_{1}}{G}+1 $$
 
 Funcion de tranferencia resultante 
 
-\frac{G + H_{1}}{1 + GH_{2}}
+$$ \frac{G + H_{1}}{1 + GH_{2}} $$
 
 
 
@@ -241,7 +241,17 @@ Simplificar el diagra de bloques y obtenga la funcion de transferencia
 
 
 
-Funcion 
+Dividir punto suma 
+
+
+
+$$ G_{1}+1 $$
+
+
+
+Se Multiplica y Quedaria 
+Funcion de transferencia resultante 
+$$ G_{1}G_{2}+G_{2}+1 $$
 
 
 
