@@ -42,7 +42,7 @@ CSTR = Continuos Stirred Tank Reactor = Tanque Reactor de Agitacion Continua, ta
 
 ![](38.jpeg)
 
-# Ejemplo de clase
+## Ejemplo de clase
 ## Bloques en cascada
 1.
 - Si se tienen 2 sistemas interconectadas.
@@ -177,7 +177,7 @@ $$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 + G_{2}(s)G_{1}(s)} $$
 
 # Reduccion de diagramas 
 ## Aplicacion algebra de bloques 
-# Ejemplo de clase
+## Ejemplo de clase
 - Hallar la funcion de transferencia $ \frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)} $
 
 ![](21.jpeg)
