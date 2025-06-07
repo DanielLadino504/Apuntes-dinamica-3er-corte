@@ -1,7 +1,7 @@
 # DIAGRAMA DE FLUJO DE SEÑALES 
 - Este tipo de diagrama permite otra forma de representacion de los sistemas complejos.
 - Se utilizan para obtener de una manera mas sencilla la funcion de transferencia total del sistema.
-### ELEMENTOS DE LOS DIAGRAMAS DE FLUJO DE SEÑAL 
+## ELEMENTOS DE LOS DIAGRAMAS DE FLUJO DE SEÑAL 
 - Nodo: Representan las señales de entrada o salida del sistema, se representa por medio de circulos con una etiqueta que indique el nombre de las señales.
 
 
@@ -21,9 +21,29 @@
 
 
 
-- Ganancia de lazo
-  
-- Trayectoria directa 
+### Ganancia de lazo
+
+$$ L_{1} = G_{1}G_{2}G_{4}G_{5}G_{7} $$
+
+
+
+$$ L_{2} = G_{1}G_{3}G_{5}G_{7} $$
+
+
+
+$$ L_{3} = G_{6} $$
+
+
+
+### Trayectoria directa 
+
+$$ H_{1} = G_{1}G_{2}G_{4}G_{5} $$
+
+
+
+$$ H_{2} = G_{1}G_{3}G_{5} $$
+
+
 
 ## DEFINICIONES 
 - Camino o trayectoria: Camino o trayacto es un recorrido de ramas conectadas en el sentido de las flechas de las ramas.
@@ -46,9 +66,74 @@ $$ P = \frac{1}{\Delta }\sum_{k}P_{k}\Delta _{k} $$
 
 
 
-Trayectoria directa 
+### Trayectoria directa 
 
-$$ P_{1} = 1 * 1 * G_{1} * G_{2} * G_{3} * 1 =G_{1}G_{2}G_{3} $$
+$$ P_{1} = 1 * 1 * G_{1} * G_{2} * G_{3} * 1 = G_{1}G_{2}G_{3} $$
+
+
+
+### Lazos cerrados 
+
+$$ L_{1} = G_{1}G_{2}H_{1} $$
+
+
+
+$$ L_{2} = -G_{2}G_{3}H_{2} $$
+
+
+
+$$ L_{3} = -G_{1}G_{2}G_{3} $$
+
+
+
+### Determinante:
+
+$$ \Delta = 1 - (L_{1} + L_{2} + L_{3}) $$
+
+### Cofactores:
+
+$$ \Delta_{1} = 1 $$ 
+
+$$ \frac{C(s)}{R(s)} = \frac{P_{1}\Delta _{1}}{\Delta} = \frac{G_{1}G_{2}G_{3}}{1 - G_{1}G_{2}H_{1} + G_{2}G_{3}H_{2} + G_{1}G_{2}G_{3}} $$
+
+2.
+
+
+
+### Trayectoria directa  
+
+$$ P_{1} = G_{1}G_{2}G_{3}G_{4}G_{5} $$
+
+$$ P_{2} = G_{1}G_{6}G_{4}G_{5} $$
+
+$$ P_{3} = G_{1}G_{2}G_{7} $$
+
+### Lazos cerrados
+
+$$ L_{1} = -G_{4}H_{1} $$
+
+$$ L_{2} = -G_{2}G_{7}H_{1} $$
+
+$$ L_{3} = -G_{6}G_{4}G_{5}H_{2} $$
+
+$$ L_{4} = -G_{2}G_{3}G_{4}G_{5}H_{2} $$
+
+### Determinante:
+
+$$ \Delta = 1 - (L_{1} + L_{2} + L_{3}+L_{4})+L_{1}L_{2} $$
+
+### Cofactores:
+
+$$ \Delta_{1} = 1 $$
+
+$$ \Delta_{2} = 1 $$
+
+$$ \Delta_{3} = 1 - L_{1} $$
+
+$$L_{1}$$  no toca la trayectoria
+
+$$\frac{C(s)}{R(s)} = \frac{1}{\Delta}(P_{1}\Delta_{1} + P_{2}\Delta_{2} + P_{3}\Delta_{3} ) = \frac{G_{1}G_{2}G_{3}G_{4}G_{5} + G_{1}G_{6}G_{4}G_{5} + G_{1}G_{2}G_{7}(1 + G_{4}H_{1})}{1 - G_{4}H_{1} + G_{2}G_{7}H_{2} + G_{6}G_{4}G_{5}G_{2}H_{2} + G_{4}H_{1}G_{2}G_{7}H_{2}} $$
+
 
 
 
