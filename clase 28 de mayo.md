@@ -1,13 +1,13 @@
-# Algebra de bloques
-Diagrama de bloques
+# ALGEBRA DE BLOQUES
+Diagrama de bloques.
 - Una herramienta que puede ayudar a entender un poc la interaccion entre varios sistemas son los diagramas de bloques.
 - Primer sistema de control J.Watt.
 - Para explicar su sistemas empezo a desarrollar los diagramas de bloques.
-## Maquina de vapor
+## MAQUINA DE VAPOR 
 
 ![](31.jpeg)
 
-# Elementos de un diagrama de bloques 
+# ELEMENTOS DE UN DIAGRAMA DE BLOQUES  
 - Bloque funcional: Es un simbolo para representar la operacion matematica que sobre la señal de entrada hace el bloque para producir una salida.
 
 ![](32.jpeg)
@@ -16,15 +16,15 @@ Diagrama de bloques
 
 ![](33.jpeg)
 
--Punto suma: Realiza operaciones (Suma o resta) entre señales unicamente. el signo mas o el signo menos en cada punta de la flecha, indica si la señal debe sumarse o restarse.
+- Punto suma: Realiza operaciones (Suma o resta) entre señales unicamente. el signo mas o el signo menos en cada punta de la flecha, indica si la señal debe sumarse o restarse.
 
 ![](34.jpeg)
 
--Ramificacion: Un punto de ramificacion es aquel que apartir del cual la señal de un bloque va de modo concurrente a otros bloques o puntos de suma.
+- Ramificacion: Un punto de ramificacion es aquel que apartir del cual la señal de un bloque va de modo concurrente a otros bloques o puntos de suma.
 
 ![](35.jpeg)
 
-## Interpretacion del diagrama
+## INTERPRETACION DEL DIAGRAMA 
 - La salida de un bloque funcional corresponde a la señal de entrada (Dominios) multiplicada por la funcion de transferencia del bloque. 
 
 ![](36.jpeg)
@@ -35,17 +35,15 @@ Funcion de transfetencia
 
 $$ \frac{Y(s)}{U(s)} = G(s) $$
 
-## Aplicacion de una diagrama de bloques 
-CSTR = Continuos Stirred Tank Reactor = Tanque Reactor de Agitacion Continua, tanque donde se juntan varias sustancias y sale sola una sustancia.
+## APLICACION DE UN DIAGRAMA DE BLOQUES  
+- CSTR = Continuos Stirred Tank Reactor = Tanque Reactor de Agitacion Continua, tanque donde se juntan varias sustancias y sale sola una sustancia.
 
 ![](37.jpeg)
 
 ![](38.jpeg)
 
-## Ejemplo de clase
-## Bloques en cascada
-1.
-- Si se tienen 2 sistemas interconectadas.
+## BLOQUE EN CASCADA 
+1. Si se tienen 2 sistemas interconectadas.
   
 ![](10.jpeg)
 
@@ -63,24 +61,41 @@ $$ \frac{Y_{2}(s)}{U_{1}(s)} = G_{1}(s)G_{2}(s) $$
 
 ![](11.jpeg)
 
-2.
+## EJEMPLO DE CLASE 
 - Identificar los elementos de Sistema de la figura.
 
 ![](12.jpeg)
 
-Tipos de elementos 
+Tipos de elementos: 
 - Punto suma
 - Bloque funcional
 - Flechas (Señales)
 - Ramificacion 
 
-## Ejemplo de tema
+## EJEMPLO DE TEMA 
+1. Identificar los elementos de Sistema de la figura
 
 
 
+Tipos de elementos: 
+- Punto suma
+- Bloque funcional
+- Flechas (Señales)
+- Ramificacion 
 
-## Algebra de bloques 
-Utilizando algebra de bloques es posibles obtener la funcion de transferencia de sistemas compuestos de varios bloques funcionales.
+2. Identificar los elementos de Sistema de la figura
+
+
+
+Tipos de elementos: 
+- Punto suma
+- Bloque funcional
+- Flechas (Señales)
+- Ramificacion 
+
+
+## ALGEBRA DE BLOQUES  
+- Utilizando algebra de bloques es posibles obtener la funcion de transferencia de sistemas compuestos de varios bloques funcionales.
 
 ![](13.jpeg)
 
@@ -117,9 +132,9 @@ $$ Y = U(G_{1}+G_{2}) $$
 
 $$ \frac{Y}{U} = G_{1}+G_{2} $$
 
-# Demostracion propiedades 
-## Lazo de realimentacion positivo 
-## Ejemplo de clase
+# DEMOSTRACION DE PROPIEDADES  
+## LAZO DE REALIMENTACION POSITIVO  
+## EJEMPLO DE CLASE 
 
 ![](20.jpeg)
 
@@ -149,7 +164,7 @@ Funcion de transferecia
 
 $$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 - G_{2}(s)G_{1}(s)} $$
 
-## Lazo de realimentacion negativa 
+## LAZO DE REALIMENTACION NEGATIVA 
 Es lo mismo que la positiva pero solamente cambia el signo.
 
 ![](20.jpeg)
@@ -180,11 +195,10 @@ Funcion de transferecia
 
 $$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 + G_{2}(s)G_{1}(s)} $$
 
-# Reduccion de diagramas 
-## Aplicacion algebra de bloques 
-## Ejemplo de clase
-1.
-- Hallar la funcion de transferencia $ \frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)} $
+# REDUCCION DE DIAGRAMAS  
+## APLICACION ALGEBRA DE BLOQUES  
+## EJEMPLO DE CLASE 
+1. Hallar la funcion de transferencia $ \frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)} $
 
 ![](21.jpeg)
 
@@ -198,8 +212,7 @@ $$ \frac{Y(s)}{X_{1}(s)} = G_{3}(G_{1}-G_{2}) $$
 
 $$ \frac{Y(s)}{X_{2}(s)} = (G_{4}-1) $$
 
-2.
--Hallar la funcion de transferencia $ \frac{C(s)}{R(s)} $
+2. Hallar la funcion de transferencia $ \frac{C(s)}{R(s)} $
 
 ![](23.jpeg)
 
@@ -212,9 +225,8 @@ Reducion
 Funcion de transferencia total del diagrama 
 ![](26.jpeg)
 
-## Ejemplo de tema
-1.
-Simplificar el diagra de bloques y obtenga la funcion de transferencia
+## EJEMPLO DE TEMA
+1. Simplificar el diagra de bloques y obtenga la funcion de transferencia
 
 
 
@@ -236,8 +248,7 @@ $$ \frac{G + H_{1}}{1 + GH_{2}} $$
 
 
 
-2.
-Simplificar el diagra de bloques y obtenga la funcion de transferencia
+2. Simplificar el diagra de bloques y obtenga la funcion de transferencia
 
 
 
