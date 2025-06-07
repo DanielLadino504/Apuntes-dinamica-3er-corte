@@ -34,6 +34,6 @@
 $$ P = \frac{1}{\Delta }\sum_{k}P_{k}\Delta _{k} $$
 
 - $$P_{k}$$ = Ganancia de los caminos
-- $$\Delta$$ =
-- $$\Delta _{k}$$ = 
+- $$\Delta$$ = 1-(suma ganancias de los lazos) + (suma producto de 2 lazos que no se tocan) - (suma producto de 3 lazos que no se tocan) + .................
+- $$\Delta _{k}$$ = 1 - (su)(P_{k}) + (suma de ganancia 2 lazos que no toquen la trayectoria P_{k})
 - k = Numero de trayectoria directa
