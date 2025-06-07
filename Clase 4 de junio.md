@@ -1,7 +1,7 @@
 # DIAGRAMA DE FLUJO DE SEÑALES 
 - Este tipo de diagrama permite otra forma de representacion de los sistemas complejos.
 - Se utilizan para obtener de una manera mas sencilla la funcion de transferencia total del sistema.
-## ELEMENTOS DE LOS DIAGRAMAS DE FLUJO DE SEÑAL 
+### ELEMENTOS DE LOS DIAGRAMAS DE FLUJO DE SEÑAL 
 - Nodo: Representan las señales de entrada o salida del sistema, se representa por medio de circulos con una etiqueta que indique el nombre de las señales.
 
 
@@ -21,6 +21,10 @@
 
 
 
+- Ganancia de lazo
+  
+- Trayectoria directa 
+
 ## DEFINICIONES 
 - Camino o trayectoria: Camino o trayacto es un recorrido de ramas conectadas en el sentido de las flechas de las ramas.
 - Si no se cruza ningun nodo mas de una vez, el camino o trayectoria es abierto.
@@ -35,5 +39,19 @@ $$ P = \frac{1}{\Delta }\sum_{k}P_{k}\Delta _{k} $$
 
 - $$P_{k}$$ = Ganancia de los caminos
 - $$\Delta$$ = 1 - (suma ganancias de los lazos) + (suma producto de 2 lazos que no se tocan) - (suma producto de 3 lazos que no se tocan) + .................
-- $$\Delta_{k}$$ = 1 - (suma ganancia lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si) - (suma ganancia 2 lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si ) - (suma ganancia 3 lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si) + .......................
+- $$\Delta_{k}$$ = 1 - (suma ganancia lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si) + (suma ganancia 2 lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si ) - (suma ganancia 3 lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si) + .......................
 - k = Numero de trayectoria directa
+## EJEMPLO DE CLASE
+1.
+
+
+
+Trayectoria directa 
+
+$$ P_{1} = 1 * 1 * G_{1} * G_{2} * G_{3} * 1 =G_{1}G_{2}G_{3} $$
+
+
+
+
+
+
