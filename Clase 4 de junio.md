@@ -21,7 +21,7 @@
 
 
 
-### Ganancia de lazo
+### GANANCIA DE LAZO
 
 $$ L_{1} = G_{1}G_{2}G_{4}G_{5}G_{7} $$
 
@@ -35,7 +35,7 @@ $$ L_{3} = G_{6} $$
 
 
 
-### Trayectoria directa 
+### TRAYECTORIA DIRECTA  
 
 $$ H_{1} = G_{1}G_{2}G_{4}G_{5} $$
 
@@ -66,13 +66,13 @@ $$ P = \frac{1}{\Delta }\sum_{k}P_{k}\Delta _{k} $$
 
 
 
-### Trayectoria directa:
+### TRAYECTORIA DIRECTA:
 
 $$ P_{1} = 1 * 1 * G_{1} * G_{2} * G_{3} * 1 = G_{1}G_{2}G_{3} $$
 
 
 
-### Lazos cerrados: 
+### LAZOS CERRADOS: 
 
 $$ L_{1} = G_{1}G_{2}H_{1} $$
 
@@ -86,11 +86,11 @@ $$ L_{3} = -G_{1}G_{2}G_{3} $$
 
 
 
-### Determinante:
+### DETERMINANTE:
 
 $$ \Delta = 1 - (L_{1} + L_{2} + L_{3}) $$
 
-### Cofactores:
+### COFACTORES:
 
 $$ \Delta_{1} = 1 $$ 
 
@@ -100,7 +100,7 @@ $$ \frac{C(s)}{R(s)} = \frac{P_{1}\Delta_{1}}{\Delta} = \frac{G_{1}G_{2}G_{3}}{1
 
 
 
-### Trayectoria directa:
+### TRAYECTORIA DIRECTA:
 
 $$ P_{1} = G_{1}G_{2}G_{3}G_{4}G_{5} $$
 
@@ -114,7 +114,7 @@ $$ P_{3} = G_{1}G_{2}G_{7} $$
 
 
 
-### Lazos cerrados:
+### LAZOS CERRADOS:
 
 $$ L_{1} = -G_{4}H_{1} $$
 
@@ -132,11 +132,11 @@ $$ L_{4} = -G_{2}G_{3}G_{4}G_{5}H_{2} $$
 
 
 
-### Determinante:
+### DETERMINANTE:
 
 $$ \Delta = 1 - (L_{1} + L_{2} + L_{3} + L_{4}) + L_{1}L_{2} $$
 
-### Cofactores:
+### COFACTORES:
 
 $$ \Delta_{1} = 1 $$
 
@@ -152,7 +152,7 @@ $$ \frac{C(s)}{R(s)} = \frac{1}{\Delta}(P_{1}\Delta_{1} + P_{2}\Delta_{2} + P_{3
 
 
 
-### Trayectoria directa:
+### TRAYECTORIA DIRECTA:
 
 $$ P_{1} =1 * G_{1} * 1 * G_{2} * 1 * G_{3} * 1 * G_{4} $$  
 
@@ -160,7 +160,7 @@ $$ P_{1} = G_{1}G_{2}G_{3}G_{4} $$
 
 
 
-### Lazos cerrados:
+### LAZOS CERRADOS:
 
 $$ L_{1} = -G_{1}G_{2} $$
 
@@ -174,11 +174,11 @@ $$ L_{3} = G_{2}G_{3} $$
 
 
 
-### Determinante:
+### DETERMINANTE:
 
 $$ \Delta = 1 - (L_{1} + L_{2} + L_{3})+L_{1}L_{2} $$
 
-### Cofactores:
+### COFACTORES:
 
 $$ \Delta_{1} = 1 $$
 
