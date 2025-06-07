@@ -258,6 +258,7 @@ $$ G_{1} + 1 $$
 
 Se Multiplica y Quedaria 
 Funcion de transferencia resultante 
+
 $$ G_{1}G_{2} + G_{2} + 1 $$
 
 
