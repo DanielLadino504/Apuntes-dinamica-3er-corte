@@ -194,7 +194,7 @@ $$ \frac{Y(s)}{X(s)} = \frac{G_{1}(s)}{1 + G_{2}(s)G_{1}(s)} $$
 # REDUCCION DE DIAGRAMAS  
 ## APLICACION ALGEBRA DE BLOQUES  
 ## EJEMPLO DE CLASE 
-1. Hallar la funcion de transferencia $ \frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)} $
+1. Hallar la funcion de transferencia $$\frac{Y(s)}{X_{1}(s)} y \frac{Y(s)}{X_{2}(s)}$$
 
 ![](21.jpeg)
 
@@ -204,11 +204,11 @@ Reducion
 
 Funciones de transferencia 
 
-$$ \frac{Y(s)}{X_{1}(s)} = G_{3}(G_{1}-G_{2}) $$
+$$ \frac{Y(s)}{X_{1}(s)} = G_{3}(G_{1} - G_{2}) $$
 
-$$ \frac{Y(s)}{X_{2}(s)} = (G_{4}-1) $$
+$$ \frac{Y(s)}{X_{2}(s)} = (G_{4} - 1) $$
 
-2. Hallar la funcion de transferencia $ \frac{C(s)}{R(s)} $
+2. Hallar la funcion de transferencia $$\frac{C(s)}{R(s)}$$
 
 ![](23.jpeg)
 
@@ -234,7 +234,7 @@ $$ \frac{G}{H_{2}} $$
 
 Funcion punto suma 
 
-$$ \frac{H_{1}}{G}+1 $$
+$$ \frac{H_{1}}{G} + 1 $$
 
 
 
@@ -252,13 +252,13 @@ Dividir punto suma
 
 
 
-$$ G_{1}+1 $$
+$$ G_{1} + 1 $$
 
 
 
 Se Multiplica y Quedaria 
 Funcion de transferencia resultante 
-$$ G_{1}G_{2}+G_{2}+1 $$
+$$ G_{1}G_{2} + G_{2} + 1 $$
 
 
 
