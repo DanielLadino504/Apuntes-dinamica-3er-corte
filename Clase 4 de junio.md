@@ -4,22 +4,22 @@
 ## ELEMENTOS DE LOS DIAGRAMAS DE FLUJO DE SEÑAL 
 - Nodo: Representan las señales de entrada o salida del sistema, se representa por medio de circulos con una etiqueta que indique el nombre de las señales.
 
-
+![](210.jpeg)
 
 - Flecha: Represemta la relacion entre las variables del sistema, se representa por medio de flechas que indican el sentido de la relacion, la flecha sale de una señal (Nodo) de entrada o llega a la señal de salida (Nodo), se agrega una etiqueta a la flecha para indicar la funcion de transferencia relacionada en la entrada y en la salida.
 
+![](211.jpeg)
 
-
-
+![](212.jpeg)
 
 # COMPARACION DIAGRAMAS DE BLOQUES Y FLUJO DE SEÑALES 
 ## DIAGRAMA DE BLOQUES
 
-
+![](213.jpeg)
 
 ## FLUJO DE SEÑALES 
 
-
+![](214.jpeg)
 
 ### GANANCIA DE LAZO
 
