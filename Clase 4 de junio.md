@@ -25,25 +25,25 @@
 
 $$ L_{1} = G_{1}G_{2}G_{4}G_{5}G_{7} $$
 
-
+![](215.jpeg)
 
 $$ L_{2} = G_{1}G_{3}G_{5}G_{7} $$
 
-
+![](216.jpeg)
 
 $$ L_{3} = G_{6} $$
 
-
+![](217.jpeg)
 
 ### TRAYECTORIA DIRECTA  
 
 $$ H_{1} = G_{1}G_{2}G_{4}G_{5} $$
 
-
+![](219.jpeg)
 
 $$ H_{2} = G_{1}G_{3}G_{5} $$
 
-
+![](218.jpeg)
 
 ## DEFINICIONES 
 - Camino o trayectoria: Camino o trayacto es un recorrido de ramas conectadas en el sentido de las flechas de las ramas.
@@ -64,27 +64,27 @@ $$ P = \frac{1}{\Delta }\sum_{k}P_{k}\Delta _{k} $$
 ## EJEMPLO DE CLASE
 1.
 
-
+![](220.jpeg)
 
 ### TRAYECTORIA DIRECTA:
 
 $$ P_{1} = 1 * 1 * G_{1} * G_{2} * G_{3} * 1 = G_{1}G_{2}G_{3} $$
 
-
+![](221.jpeg)
 
 ### LAZOS CERRADOS: 
 
 $$ L_{1} = G_{1}G_{2}H_{1} $$
 
-
+![](222.jpeg)
 
 $$ L_{2} = -G_{2}G_{3}H_{2} $$
 
-
+![](223.jpeg)
 
 $$ L_{3} = -G_{1}G_{2}G_{3} $$
 
-
+![](224.jpeg)
 
 ### DETERMINANTE:
 
@@ -98,39 +98,39 @@ $$ \frac{C(s)}{R(s)} = \frac{P_{1}\Delta_{1}}{\Delta} = \frac{G_{1}G_{2}G_{3}}{1
 
 2.
 
-
+![](225.jpeg)
 
 ### TRAYECTORIA DIRECTA:
 
 $$ P_{1} = G_{1}G_{2}G_{3}G_{4}G_{5} $$
 
-
+![](226.jpeg)
 
 $$ P_{2} = G_{1}G_{6}G_{4}G_{5} $$
 
-
+![](227.jpeg)
 
 $$ P_{3} = G_{1}G_{2}G_{7} $$
 
-
+![](228.jpeg)
 
 ### LAZOS CERRADOS:
 
 $$ L_{1} = -G_{4}H_{1} $$
 
-
+![](229.jpeg)
 
 $$ L_{2} = -G_{2}G_{7}H_{2} $$
 
-
+![](230.jpeg)
 
 $$ L_{3} = -G_{6}G_{4}G_{5}H_{2} $$
 
-
+![](231.jpeg)
 
 $$ L_{4} = -G_{2}G_{3}G_{4}G_{5}H_{2} $$
 
-
+![](232.jpeg)
 
 ### DETERMINANTE:
 
@@ -150,7 +150,7 @@ $$ \frac{C(s)}{R(s)} = \frac{1}{\Delta}(P_{1}\Delta_{1} + P_{2}\Delta_{2} + P_{3
 
 3.
 
-
+![](233.jpeg)
 
 ### TRAYECTORIA DIRECTA:
 
@@ -158,21 +158,21 @@ $$ P_{1} =1 * G_{1} * 1 * G_{2} * 1 * G_{3} * 1 * G_{4} $$
 
 $$ P_{1} = G_{1}G_{2}G_{3}G_{4} $$
 
-
+![](234.jpeg)
 
 ### LAZOS CERRADOS:
 
 $$ L_{1} = -G_{1}G_{2} $$
 
-
+![](235.jpeg)
 
 $$ L_{2} = -G_{3}G_{4} $$
 
-
+![](236.jpeg)
 
 $$ L_{3} = G_{2}G_{3} $$
 
-
+![](237.jpeg)
 
 ### DETERMINANTE:
 
@@ -182,5 +182,5 @@ $$ \Delta = 1 - (L_{1} + L_{2} + L_{3}) + L_{1}L_{2} $$
 
 $$ \Delta_{1} = 1 $$
 
-$$ \frac{E(0)}{E(1)} = \frac{G_{1}G_{2}G_{3}G_{4}}{1 + G_{1}G_{2}G_{3}G_{4} + G_{1}G_{2}G_{3}G_{4}G_{5} $$
+$$\frac{E(0)}{E(1)} = \frac{G_{1}G_{2}G_{3}G_{4}}{1 + G_{1}G_{2}G_{3}G_{4} + G_{1}G_{2}G_{3}G_{4}G_{5}}$$
 
