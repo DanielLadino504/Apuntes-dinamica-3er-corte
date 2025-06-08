@@ -75,7 +75,7 @@ Tipos de elementos:
 ## EJEMPLO DE TEMA 
 1. Identificar los elementos de Sistema de la figura
 
-
+![](207.jpeg)
 
 Tipos de elementos: 
 - Punto suma
@@ -84,7 +84,7 @@ Tipos de elementos:
 - Ramificacion 
 2. Identificar los elementos de Sistema de la figura
 
-
+![](208.jpeg)
 
 Tipos de elementos: 
 - Punto suma
@@ -219,14 +219,14 @@ Reducion
 ![](25.jpeg)
 
 Funcion de transferencia total del diagrama 
+![](201.jpeg)
 ![](26.jpeg)
-
 ## EJEMPLO DE TEMA
 1. Simplificar el diagra de bloques y obtenga la funcion de transferencia
 
+![](202.jpeg)
 
-
-
+![](203.jpeg)
 
 Funcion de trasferencia de lazo cerrado 
 
@@ -236,17 +236,17 @@ Funcion punto suma
 
 $$ \frac{H_{1}}{G} + 1 $$
 
-
+![](204.jpeg)
 
 Funcion de tranferencia resultante 
 
 $$ \frac{G + H_{1}}{1 + GH_{2}} $$
 
-
+![](205.jpeg)
 
 2. Simplificar el diagra de bloques y obtenga la funcion de transferencia
 
-
+![](206.jpeg)
 
 Dividir punto suma 
 
