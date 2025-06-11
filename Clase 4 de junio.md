@@ -21,7 +21,7 @@
 
 ![](214.jpeg)
 
-### GANANCIA DE LAZO
+#### GANANCIA DE LAZO
 
 $$ L_{1} = G_{1}G_{2}G_{4}G_{5}G_{7} $$
 
@@ -35,7 +35,7 @@ $$ L_{3} = G_{6} $$
 
 ![](217.jpeg)
 
-### TRAYECTORIA DIRECTA  
+#### TRAYECTORIA DIRECTA  
 
 $$ H_{1} = G_{1}G_{2}G_{4}G_{5} $$
 
@@ -66,13 +66,13 @@ $$ P = \frac{1}{\Delta }\sum_{k}P_{k}\Delta _{k} $$
 
 ![](220.jpeg)
 
-### TRAYECTORIA DIRECTA:
+#### TRAYECTORIA DIRECTA:
 
 $$ P_{1} = 1 * 1 * G_{1} * G_{2} * G_{3} * 1 = G_{1}G_{2}G_{3} $$
 
 ![](221.jpeg)
 
-### LAZOS CERRADOS: 
+#### LAZOS CERRADOS: 
 
 $$ L_{1} = G_{1}G_{2}H_{1} $$
 
@@ -86,11 +86,11 @@ $$ L_{3} = -G_{1}G_{2}G_{3} $$
 
 ![](224.jpeg)
 
-### DETERMINANTE:
+#### DETERMINANTE:
 
 $$ \Delta = 1 - (L_{1} + L_{2} + L_{3}) $$
 
-### COFACTORES:
+#### COFACTORES:
 
 $$ \Delta_{1} = 1 $$ 
 
@@ -100,7 +100,7 @@ $$ \frac{C(s)}{R(s)} = \frac{P_{1}\Delta_{1}}{\Delta} = \frac{G_{1}G_{2}G_{3}}{1
 
 ![](225.jpeg)
 
-### TRAYECTORIA DIRECTA:
+#### TRAYECTORIA DIRECTA:
 
 $$ P_{1} = G_{1}G_{2}G_{3}G_{4}G_{5} $$
 
@@ -114,7 +114,7 @@ $$ P_{3} = G_{1}G_{2}G_{7} $$
 
 ![](228.jpeg)
 
-### LAZOS CERRADOS:
+#### LAZOS CERRADOS:
 
 $$ L_{1} = -G_{4}H_{1} $$
 
@@ -132,11 +132,11 @@ $$ L_{4} = -G_{2}G_{3}G_{4}G_{5}H_{2} $$
 
 ![](232.jpeg)
 
-### DETERMINANTE:
+#### DETERMINANTE:
 
 $$ \Delta = 1 - (L_{1} + L_{2} + L_{3} + L_{4}) + L_{1}L_{2} $$
 
-### COFACTORES:
+#### COFACTORES:
 
 $$ \Delta_{1} = 1 $$
 
@@ -152,7 +152,7 @@ $$ \frac{C(s)}{R(s)} = \frac{1}{\Delta}(P_{1}\Delta_{1} + P_{2}\Delta_{2} + P_{3
 
 ![](233.jpeg)
 
-### TRAYECTORIA DIRECTA:
+#### TRAYECTORIA DIRECTA:
 
 $$ P_{1} =1 * G_{1} * 1 * G_{2} * 1 * G_{3} * 1 * G_{4} $$  
 
@@ -160,7 +160,7 @@ $$ P_{1} = G_{1}G_{2}G_{3}G_{4} $$
 
 ![](234.jpeg)
 
-### LAZOS CERRADOS:
+#### LAZOS CERRADOS:
 
 $$ L_{1} = -G_{1}G_{2} $$
 
@@ -174,13 +174,103 @@ $$ L_{3} = G_{2}G_{3} $$
 
 ![](237.jpeg)
 
-### DETERMINANTE:
+#### DETERMINANTE:
 
 $$ \Delta = 1 - (L_{1} + L_{2} + L_{3}) + L_{1}L_{2} $$
 
-### COFACTORES:
+#### COFACTORES:
 
 $$ \Delta_{1} = 1 $$
 
-$$\frac{E(0)}{E(1)} = \frac{G_{1}G_{2}G_{3}G_{4}}{1 + G_{1}G_{2}G_{3}G_{4} + G_{1}G_{2}G_{3}G_{4}G_{5}}$$
+$$\frac{E(0)}{E(1)} = \frac{G_{1}G_{2}G_{3}G_{4}}{1 + G_{1}G_{2}G_{3}G_{4} + G_{1}G_{2}G_{3}G_{4}G_{5}} $$
+
+## EJEMPLO DE TEMA 
+1.
+
+
+
+Pasar un diagrama de bloques a una grafica de flujos de señales 
+
+
+
+
+
+#### LAZOS CERRADOS:
+
+$$ L_{1} = -G_{1}H_{2} $$
+
+
+
+$$ L_{2} = -G_{2}H_{1} $$
+
+
+
+$$ L_{3} = G_{3}H_{1}H_{2} $$
+
+
+
+#### TRAYECTORIA DIRECTA:
+
+$$ P_{1} = G_{1}G_{2} $$
+
+
+
+$$ P_{1} = G_{1}G_{2} $$
+
+
+
+$$ P_{1} = G_{1}G_{2} $$
+
+
+
+#### DETERMINANTE:
+
+$$ \Delta = 1 - (L_{1} + L_{2} + L_{3}) = 1 - ( - G_{1}H_{2} - G_{2}H_{1} + G_{3}H_{1}H_{2}) = 1 + G_{1}H_{2} + G_{2}H_{1} - G_{3}H_{1}H_{2} $$
+
+#### COFACTORES:
+
+$$ \Delta_{1} = 1 $$
+
+$$ \Delta_{2} = 1 - L_{1} = 1 + G_{1}H_{2} $$
+
+$$ G(s) = \frac{G_{1}G_{2} + G_{4} + G_{1}G_{4}H_{2} + G_{3}}{1 + G_{1}H_{2} + G_{2}H_{1} - G_{3}H_{1}H_{2}} $$
+
+2.
+
+
+
+Pasar un diagrama de bloques a una grafica de flujos de señales 
+
+
+
+
+
+#### LAZOS CERRADOS:
+
+L_{1} = \frac{ - 16k}{s + 0.8}
+
+
+
+L_{2} = \frac{ - 16}{(s + 0.8)s}
+
+
+
+
+
+#### TRAYECTORIA DIRECTA:
+
+T_{1}=\frac{16}{(s+0.8)s}
+
+#### DETERMINANTE:
+
+\Delta = 1 - L_{1} - L_{2} = 1 + \frac{16k}{s + 0.8} + \frac{16}{(s + 0.8)s}
+
+\Delta = \frac{(s + 0.8)s + 16ks + 16}{(s + 0.8)s} = \frac{s^{2} + (16k + 0.8)s + 16}{(s + 0.8)s}
+
+#### COFACTORES:
+
+\Delta_{1} = 1
+
+
+
 
