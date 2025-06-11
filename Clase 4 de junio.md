@@ -249,31 +249,31 @@ Pasar un diagrama de bloques a una grafica de flujos de señales
 
 #### LAZOS CERRADOS:
 
-L_{1} = \frac{ - 16k}{s + 0.8}
+$$ L_{1} = \frac{ - 16k}{s + 0.8} $$
 
 
 
-L_{2} = \frac{ - 16}{(s + 0.8)s}
+$$ L_{2} = \frac{ - 16}{(s + 0.8)s} $$
 
 
 
 #### TRAYECTORIA DIRECTA:
 
-T_{1}=\frac{16}{(s+0.8)s}
+$$ T_{1}=\frac{16}{(s+0.8)s} $$
 
 
 
 #### DETERMINANTE:
 
-\Delta = 1 - L_{1} - L_{2} = 1 + \frac{16k}{s + 0.8} + \frac{16}{(s + 0.8)s}
+$$ \Delta = 1 - L_{1} - L_{2} = 1 + \frac{16k}{s + 0.8} + \frac{16}{(s + 0.8)s} $$
 
-\Delta = \frac{(s + 0.8)s + 16ks + 16}{(s + 0.8)s} = \frac{s^{2} + (16k + 0.8)s + 16}{(s + 0.8)s}
+$$ \Delta = \frac{(s + 0.8)s + 16ks + 16}{(s + 0.8)s} = \frac{s^{2} + (16k + 0.8)s + 16}{(s + 0.8)s} $$
 
 #### COFACTORES:
 
-\Delta_{1} = 1
+$$ \Delta_{1} = 1 $$
 
 ### FUNCION DE TRANSFERENCIA 
 
-G(s) = \frac{16}{s_{2} + (16k + 0.8)s + 16}
+$$ G(s) = \frac{16}{s_{2} + (16k + 0.8)s + 16} $$
 
