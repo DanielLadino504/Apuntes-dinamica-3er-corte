@@ -233,6 +233,8 @@ $$ \Delta_{1} = 1 $$
 
 $$ \Delta_{2} = 1 - L_{1} = 1 + G_{1}H_{2} $$
 
+### FUNCION DE TRANSFERENCIA 
+
 $$ G(s) = \frac{G_{1}G_{2} + G_{4} + G_{1}G_{4}H_{2} + G_{3}}{1 + G_{1}H_{2} + G_{2}H_{1} - G_{3}H_{1}H_{2}} $$
 
 2.
@@ -255,11 +257,11 @@ L_{2} = \frac{ - 16}{(s + 0.8)s}
 
 
 
-
-
 #### TRAYECTORIA DIRECTA:
 
 T_{1}=\frac{16}{(s+0.8)s}
+
+
 
 #### DETERMINANTE:
 
@@ -271,6 +273,7 @@ T_{1}=\frac{16}{(s+0.8)s}
 
 \Delta_{1} = 1
 
+### FUNCION DE TRANSFERENCIA 
 
-
+G(s) = \frac{16}{s_{2} + (16k + 0.8)s + 16}
 
