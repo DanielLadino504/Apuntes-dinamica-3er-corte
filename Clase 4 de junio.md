@@ -61,9 +61,9 @@ $$ P = \frac{1}{\Delta }\sum_{k}P_{k}\Delta _{k} $$
 - $$\Delta$$ = 1 - (suma ganancias de los lazos) + (suma producto de 2 lazos que no se tocan) - (suma producto de 3 lazos que no se tocan) + .................
 - $$\Delta_{k}$$ = 1 - (suma ganancia lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si) + (suma ganancia 2 lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si ) - (suma ganancia 3 lazos que no toquen la trayectoria $$P_{k}$$ y no se toquen entre si) + .......................
 - k = Numero de trayectoria directa
+![](314.jpeg)
 ## EJEMPLO DE CLASE
 1.
-
 ![](220.jpeg)
 
 #### TRAYECTORIA DIRECTA:
@@ -151,11 +151,11 @@ $$ \frac{C(s)}{R(s)} = \frac{1}{\Delta}(P_{1}\Delta_{1} + P_{2}\Delta_{2} + P_{3
 3.
 
 ![](233.jpeg)
-
+![](312.jpeg)
 #### TRAYECTORIA DIRECTA:
 
 $$ P_{1} =1 * G_{1} * 1 * G_{2} * 1 * G_{3} * 1 * G_{4} $$  
-
+![](313.jpeg)
 $$ P_{1} = G_{1}G_{2}G_{3}G_{4} $$
 
 ![](234.jpeg)
@@ -187,41 +187,41 @@ $$\frac{E(0)}{E(1)} = \frac{G_{1}G_{2}G_{3}G_{4}}{1 + G_{1}G_{2}G_{3}G_{4} + G_{
 ## EJEMPLO DE TEMA 
 1.
 
-
+![](300.jpeg)
 
 Pasar un diagrama de bloques a una grafica de flujos de señales 
 
+![](301.jpeg)
 
-
-
+![](302.jpeg)
 
 #### LAZOS CERRADOS:
 
 $$ L_{1} = -G_{1}H_{2} $$
 
-
+![](303.jpeg)
 
 $$ L_{2} = -G_{2}H_{1} $$
 
-
+![](304.jpeg)
 
 $$ L_{3} = G_{3}H_{1}H_{2} $$
 
-
+![](305.jpeg)
 
 #### TRAYECTORIA DIRECTA:
 
 $$ P_{1} = G_{1}G_{2} $$
 
-
-
-$$ P_{1} = G_{1}G_{2} $$
-
-
+![](306.jpeg)
 
 $$ P_{1} = G_{1}G_{2} $$
 
+![](307.jpeg)
 
+$$ P_{1} = G_{1}G_{2} $$
+
+![](308.jpeg)
 
 #### DETERMINANTE:
 
@@ -239,13 +239,13 @@ $$ G(s) = \frac{G_{1}G_{2} + G_{4} + G_{1}G_{4}H_{2} + G_{3}}{1 + G_{1}H_{2} + G
 
 2.
 
-
+![](309.jpeg)
 
 Pasar un diagrama de bloques a una grafica de flujos de señales 
 
+![](310.jpeg)
 
-
-
+![](311.jpeg)
 
 #### LAZOS CERRADOS:
 
@@ -261,7 +261,7 @@ $$ L_{2} = \frac{ - 16}{(s + 0.8)s} $$
 
 $$ T_{1}=\frac{16}{(s+0.8)s} $$
 
-
+![](314.jpeg)
 
 #### DETERMINANTE:
 
