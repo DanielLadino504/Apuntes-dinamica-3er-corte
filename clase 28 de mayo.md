@@ -1,4 +1,5 @@
 # ALGEBRA DE BLOQUES
+Valentina Riveros Feria, Angel David Melo, Daniel Felipe Ladino 
 Diagrama de bloques.
 - Una herramienta que puede ayudar a entender un poc la interaccion entre varios sistemas son los diagramas de bloques.
 - Primer sistema de control J.Watt.
