@@ -1,4 +1,5 @@
 # Correcion Parcial 2do corte
+Valentina Riveros Feria, Angel David Melo, Daniel Felipe Ladino 
 
 ## 1. Sistema mecanico #1
 ![](1.jpeg)
