@@ -1,4 +1,5 @@
 # DIAGRAMA DE FLUJO DE SEÑALES 
+Valentina Riveros Feria, Angel David Melo, Daniel Felipe Ladino 
 - Este tipo de diagrama permite otra forma de representacion de los sistemas complejos.
 - Se utilizan para obtener de una manera mas sencilla la funcion de transferencia total del sistema.
 ## ELEMENTOS DE LOS DIAGRAMAS DE FLUJO DE SEÑAL 
