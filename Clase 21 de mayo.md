@@ -1,4 +1,5 @@
 # MODELAMIENTO DE SISTEMAS CON DIAGRAMA DE BLOQUES 
+Valentina Riveros Feria, Angel David Melo, Daniel Felipe Ladino 
 ## MODELOS DE SISTEMAS COMPLEJOS
 - Se podrian modelar sistemas como un todo hallando las funciones de transferencia de cada componente.
 - Otro enfoque es utiliza modelos ya desarrollados ampliamente para construir modelos mas complejos.
