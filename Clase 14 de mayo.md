@@ -1,4 +1,5 @@
 # CLASIFICACION DE LAS FUNCIONES DE TRANSFERENCIA 
+Valentina Riveros Feria, Angel David Melo, Daniel Felipe Ladino 
 - Una funcion de transferencia se puede expresar como: 
 
 $$ G(s) = \frac{N(s)}{D(s)} $$
